@@ -1,67 +1,75 @@
 import socket
 import threading
 
-# Configurações do Servidor
-HOST = "127.0.0.1"  # Endereço IP do servidor (localhost)
-PORT = 12345  # Porta do servidor
+# Configurações do servidor
+HOST = '127.0.0.1'
+PORT = 65432
 
-# Configurações de Rede
-server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind((HOST, PORT))
-server.listen(2)  # O servidor escuta até 2 conexões
-
+# Lista de clientes conectados (nome e socket)
 clients = []
-jogadas = {}
 
-
-def gerenciar_cliente(client, address):
-    print(f"Conexão estabelecida com {address}")
-    client.sendall(
-        "Bem-vindo ao Pedra, Papel, Tesoura! Aguardando outro jogador...\n".encode(
-            "utf-8"
-        )
-    )
-
-    # Aguarda o segundo jogador se conectar
-    while len(clients) < 2:
-        pass
-
-    client.sendall("O jogo vai começar!\n".encode("utf-8"))
-
+# Função para tratar cada cliente
+def handle_client(client_socket, username):
     while True:
         try:
-            client.sendall("Escolha: Pedra, Papel ou Tesoura?\n".encode("utf-8"))
-            jogada = client.recv(1024).decode("utf-8").strip().lower()
-            jogadas[address] = jogada
-
-            if len(jogadas) == 2:  # Se ambos os jogadores fizeram suas escolhas
-                resultado = determinar_vencedor()
-                for c in clients:
-                    c.sendall(resultado.encode("utf-8"))
-                jogadas.clear()  # Reinicia as jogadas para a próxima rodada
+            # Recebe a mensagem do cliente
+            message = client_socket.recv(1024).decode('utf-8')
+            if message:
+                if message.startswith('/exit'):
+                    broadcast(f"{username} saiu do chat.", client_socket)
+                    client_socket.send('/exit'.encode('utf-8'))
+                    break
+                else:
+                    # Envia a mensagem para todos os clientes
+                    broadcast(f"{username}: {message}", client_socket)
+            else:
+                break
         except:
-            clients.remove(client)
-            client.close()
+            break
+    
+    # Remove o cliente ao desconectar
+    remove_client(client_socket, username)
+
+# Envia a mensagem para todos os clientes, exceto o remetente
+def broadcast(message, sender_socket=None):
+    for client, username in clients:
+        if client != sender_socket:
+            try:
+                client.send(message.encode('utf-8'))
+            except:
+                remove_client(client, username)
+
+# Remove cliente da lista de clientes conectados
+def remove_client(client_socket, username):
+    for client, name in clients:
+        if client == client_socket:
+            clients.remove((client_socket, username))
+            print(f"{username} desconectado.")
+            client_socket.close()
             break
 
+# Função para iniciar o servidor
+def start_server():
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server_socket.bind((HOST, PORT))
+    server_socket.listen()
 
-def determinar_vencedor():
-    jogador1, jogador2 = list(jogadas.values())
-    if jogador1 == jogador2:
-        return "Empate!\n"
-    elif (
-        (jogador1 == "pedra" and jogador2 == "tesoura")
-        or (jogador1 == "papel" and jogador2 == "pedra")
-        or (jogador1 == "tesoura" and jogador2 == "papel")
-    ):
-        return "Jogador 1 vence!\n"
-    else:
-        return "Jogador 2 vence!\n"
+    print(f"Servidor iniciado em {HOST}:{PORT}")
 
+    while True:
+        client_socket, addr = server_socket.accept()
+        
+        # Solicita o nome do usuário
+        client_socket.send("Digite seu nome: ".encode('utf-8'))
+        username = client_socket.recv(1024).decode('utf-8')
+        clients.append((client_socket, username))
+        
+        print(f"{username} conectado de {addr}")
+        broadcast(f"{username} entrou no chat.", client_socket)
+        
+        # Inicia uma thread para gerenciar esse cliente
+        thread = threading.Thread(target=handle_client, args=(client_socket, username))
+        thread.start()
 
-print("Servidor iniciado. Aguardando conexões...")
-while True:
-    client, address = server.accept()
-    clients.append(client)
-    thread = threading.Thread(target=gerenciar_cliente, args=(client, address))
-    thread.start()
+if __name__ == "__main__":
+    start_server()
