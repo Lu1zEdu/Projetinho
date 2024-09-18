@@ -1,0 +1,858 @@
+{
+    "Drops": {
+        "Pedaço de Cristal": {
+            "descrição": "Um pequeno cristal brilhante que pode ser usado para forjar armas ou como item de troca.",
+            "raridade": "Comum",
+            "inimigos": [
+                "Dragão",
+                "Golem",
+                "Monstro de Pedra"
+            ]
+        },
+        "Escama de Dragão": {
+            "descrição": "Escama resistente que pode ser usada para fazer armaduras ou como ingrediente raro.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Dragão",
+                "Wyvern"
+            ]
+        },
+        "Coração de Fogo": {
+            "descrição": "Um item mágico que exala calor e pode ser usado em encantamentos.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Fênix",
+                "Efígie de Fogo"
+            ]
+        },
+        "Poção de Cura": {
+            "descrição": "Uma poção que restaura a saúde do usuário.",
+            "raridade": "Comum",
+            "inimigos": [
+                "Goblin",
+                "Orc",
+                "Ladrão"
+            ]
+        },
+        "Fragmento de Arma Antiga": {
+            "descrição": "Fragmentos de uma arma poderosa que podem ser reunidos para forjar uma nova.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Cavaleiro Espectral",
+                "Guardião Antigo"
+            ]
+        },
+        "Baú de Tesouro": {
+            "descrição": "Um baú que contém vários itens valiosos e recursos.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Chefe de Masmorra",
+                "Ladrão"
+            ]
+        },
+        "Manopla de Poder": {
+            "descrição": "Uma manopla que aumenta a força do portador.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Golem",
+                "Titã"
+            ]
+        },
+        "Moeda de Ouro": {
+            "descrição": "Uma moeda de ouro que pode ser usada para comprar itens.",
+            "raridade": "Comum",
+            "inimigos": [
+                "Bandido",
+                "Soldado"
+            ]
+        },
+        "Livro de Feitiços": {
+            "descrição": "Um livro que contém feitiços poderosos e encantamentos.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Mago",
+                "Feiticeiro"
+            ]
+        },
+        "Arco Longo": {
+            "descrição": "Um arco que aumenta a precisão dos tiros.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Ranger",
+                "Bárbaro"
+            ]
+        },
+        "Anel de Invisibilidade": {
+            "descrição": "Um anel que concede invisibilidade temporária ao portador.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Ilusionista",
+                "Assassino"
+            ]
+        },
+        "Escudo de Ferro": {
+            "descrição": "Um escudo robusto que melhora a defesa.",
+            "raridade": "Comum",
+            "inimigos": [
+                "Soldado",
+                "Cavaleiro"
+            ]
+        },
+        "Poção de Força": {
+            "descrição": "Uma poção que aumenta temporariamente a força do usuário.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Monstro de Pedra",
+                "Bárbaro"
+            ]
+        },
+        "Cristal de Energia": {
+            "descrição": "Um cristal que pode ser usado para recarregar habilidades mágicas.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Elemental de Fogo",
+                "Mago"
+            ]
+        },
+        "Armadura de Placas": {
+            "descrição": "Uma armadura resistente que oferece alta proteção.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Guerreiro",
+                "Cavaleiro"
+            ]
+        },
+        "Pergaminho Mágico": {
+            "descrição": "Um pergaminho que concede um feitiço ou habilidade ao usuário.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Mago",
+                "Arcanista"
+            ]
+        },
+        "Escudo Elementar": {
+            "descrição": "Um escudo que proporciona proteção contra ataques elementares.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Elemental de Água",
+                "Elemental de Terra"
+            ]
+        },
+        "Poção de Agilidade": {
+            "descrição": "Uma poção que aumenta a agilidade do usuário.",
+            "raridade": "Comum",
+            "inimigos": [
+                "Ladrão",
+                "Acrobata"
+            ]
+        },
+        "Elmo de Ferro": {
+            "descrição": "Um elmo resistente que oferece proteção adicional à cabeça.",
+            "raridade": "Comum",
+            "inimigos": [
+                "Soldado",
+                "Guarda"
+            ]
+        },
+        "Bastão Mágico": {
+            "descrição": "Um bastão que aumenta o poder mágico do portador.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Feiticeiro",
+                "Arcanista"
+            ]
+        },
+        "Coração de Dragão": {
+            "descrição": "Um item raro que pode ser usado para criar poções poderosas.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Dragão"
+            ]
+        },
+        "Pedra de Teleporte": {
+            "descrição": "Uma pedra que permite ao usuário se teletransportar para locais específicos.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Mago",
+                "Ilusionista"
+            ]
+        },
+        "Capa de Invisibilidade": {
+            "descrição": "Uma capa que concede invisibilidade ao usuário.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Assassino",
+                "Ilusionista"
+            ]
+        },
+        "Espada Lendária": {
+            "descrição": "Uma espada antiga com grande poder de ataque.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Chefe de Masmorra",
+                "Cavaleiro Lendário"
+            ]
+        },
+        "Elixir de Vida": {
+            "descrição": "Um elixir que restaura completamente a saúde do usuário.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Chefe de Masmorra",
+                "Mago Supremo"
+            ]
+        },
+        "Pergaminho de Invocação": {
+            "descrição": "Um pergaminho que pode invocar uma criatura para ajudar em batalha.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Necromante",
+                "Invocador"
+            ]
+        },
+        "Poção de Proteção": {
+            "descrição": "Uma poção que concede proteção adicional contra ataques.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Cavaleiro",
+                "Guarda"
+            ]
+        },
+        "Elmo de Magia": {
+            "descrição": "Um elmo que aumenta a capacidade mágica do usuário.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Mago",
+                "Feiticeiro"
+            ]
+        },
+        "Armadura de Dragão": {
+            "descrição": "Uma armadura feita com escamas de dragão, oferecendo alta proteção.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Dragão"
+            ]
+        },
+        "Espada de Fogo": {
+            "descrição": "Uma espada que incendeia os inimigos.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Fênix",
+                "Efígie de Fogo"
+            ]
+        },
+        "Bracelete de Força": {
+            "descrição": "Um bracelete que aumenta a força do portador.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Golem",
+                "Titã"
+            ]
+        },
+        "Coração de Cristal": {
+            "descrição": "Um cristal que possui propriedades mágicas especiais.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Elemental de Fogo",
+                "Mago Supremo"
+            ]
+        },
+        "Capa de Proteção": {
+            "descrição": "Uma capa que concede uma defesa adicional.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Chefe de Masmorra",
+                "Guarda"
+            ]
+        },
+        "Poção de Mana": {
+            "descrição": "Uma poção que restaura a mana do usuário.",
+            "raridade": "Comum",
+            "inimigos": [
+                "Mago",
+                "Feiticeiro"
+            ]
+        },
+        "Armadura Leve": {
+            "descrição": "Uma armadura que proporciona uma boa proteção sem restringir os movimentos.",
+            "raridade": "Comum",
+            "inimigos": [
+                "Ladrão",
+                "Acrobata"
+            ]
+        },
+        "Bota de Velocidade": {
+            "descrição": "Botas que aumentam a velocidade do portador.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Ranger",
+                "Assassino"
+            ]
+        },
+        "Amuleto da Sorte": {
+            "descrição": "Um amuleto que aumenta a sorte do portador, melhorando as chances de encontrar itens raros.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Ladrão",
+                "Bardo"
+            ]
+        },
+        "Poção de Invisibilidade": {
+            "descrição": "Uma poção que torna o usuário invisível por um curto período.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Ilusionista",
+                "Assassino"
+            ]
+        },
+        "Fragmento de Magia": {
+            "descrição": "Fragmentos que podem ser usados para criar feitiços poderosos.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Arcanista",
+                "Feiticeiro"
+            ]
+        },
+        "Poção de Resistência": {
+            "descrição": "Uma poção que aumenta a resistência do usuário a danos.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Guarda",
+                "Cavaleiro"
+            ]
+        },
+        "Escudo de Magia": {
+            "descrição": "Um escudo que oferece proteção mágica adicional.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Mago",
+                "Feiticeiro"
+            ]
+        },
+        "Espada de Gelo": {
+            "descrição": "Uma espada que congela os inimigos ao atingir.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Dragão de Gelo",
+                "Elemental de Gelo"
+            ]
+        },
+        "Poção de Vitalidade": {
+            "descrição": "Uma poção que aumenta a vitalidade e saúde do usuário.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Bárbaro",
+                "Guarda"
+            ]
+        },
+        "Anel de Regeneração": {
+            "descrição": "Um anel que regenera a saúde do usuário ao longo do tempo.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Necromante",
+                "Mago Supremo"
+            ]
+        },
+        "Armadura Mágica": {
+            "descrição": "Uma armadura que concede proteção mágica ao usuário.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Mago",
+                "Feiticeiro"
+            ]
+        },
+        "Colar de Proteção": {
+            "descrição": "Um colar que oferece uma proteção adicional contra ataques mágicos.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Mago",
+                "Feiticeiro"
+            ]
+        },
+        "Pena de Fênix": {
+            "descrição": "Uma pena mágica que pode ser usada para ressuscitar o usuário ou em encantamentos.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Fênix"
+            ]
+        },
+        "Coração de Leão": {
+            "descrição": "Um item que aumenta a coragem e força do usuário.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Leão Mágico",
+                "Bárbaro"
+            ]
+        },
+        "Poção de Sabedoria": {
+            "descrição": "Uma poção que aumenta a sabedoria e habilidade mágica do usuário.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Mago",
+                "Arcanista"
+            ]
+        },
+        "Bracelete de Agilidade": {
+            "descrição": "Um bracelete que aumenta a agilidade do portador.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Ladrão",
+                "Acrobata"
+            ]
+        },
+        "Espada de Luz": {
+            "descrição": "Uma espada que emite uma luz poderosa e pode cegar os inimigos.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Templário",
+                "Sacerdote"
+            ]
+        },
+        "Anel de Proteção": {
+            "descrição": "Um anel que oferece proteção adicional contra ataques.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Cavaleiro",
+                "Soldado"
+            ]
+        },
+        "Poção de Mana Completa": {
+            "descrição": "Uma poção que restaura completamente a mana do usuário.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Mago Supremo",
+                "Feiticeiro"
+            ]
+        },
+        "Espada de Energia": {
+            "descrição": "Uma espada que canaliza energia para causar dano adicional.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Arcanista",
+                "Necromante"
+            ]
+        },
+        "Pó de Fada": {
+            "descrição": "Um pó mágico que pode ser usado para encantamentos e poções.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Fada",
+                "Mago"
+            ]
+        },
+        "Elmo de Magia": {
+            "descrição": "Um elmo que aumenta a potência mágica do usuário.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Mago",
+                "Feiticeiro"
+            ]
+        },
+        "Poção de Grandeza": {
+            "descrição": "Uma poção que aumenta temporariamente todas as habilidades do usuário.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Chefe de Masmorra",
+                "Dragão"
+            ]
+        },
+        "Capa de Fogo": {
+            "descrição": "Uma capa que concede resistência ao fogo e aumenta o ataque de fogo.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Dragão de Fogo",
+                "Efígie de Fogo"
+            ]
+        },
+        "Amuleto de Cura": {
+            "descrição": "Um amuleto que restaura lentamente a saúde do portador.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Clérigo",
+                "Sacerdote"
+            ]
+        },
+        "Cristal de Gelo": {
+            "descrição": "Um cristal que pode ser usado para criar poções de gelo ou encantamentos.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Dragão de Gelo",
+                "Elemental de Gelo"
+            ]
+        },
+        "Bastão de Fogo": {
+            "descrição": "Um bastão que aumenta o poder dos feitiços de fogo.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Mago de Fogo",
+                "Feiticeiro"
+            ]
+        },
+        "Coração de Demônio": {
+            "descrição": "Um item raro que concede grande poder, mas pode ser perigoso de usar.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Demônio",
+                "Chefe Infernal"
+            ]
+        },
+        "Poção de Agilidade Suprema": {
+            "descrição": "Uma poção que aumenta significativamente a agilidade do usuário.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Assassino",
+                "Ladrão"
+            ]
+        },
+        "Escudo de Fogo": {
+            "descrição": "Um escudo que oferece proteção adicional contra ataques de fogo.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Dragão de Fogo",
+                "Efígie de Fogo"
+            ]
+        },
+        "Elmo de Resistência": {
+            "descrição": "Um elmo que aumenta a resistência do usuário a danos.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Cavaleiro",
+                "Guarda"
+            ]
+        },
+        "Espada de Vento": {
+            "descrição": "Uma espada que controla o vento, aumentando a velocidade dos ataques.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Elemental de Vento",
+                "Tempestade"
+            ]
+        },
+        "Poção de Magia Suprema": {
+            "descrição": "Uma poção que restaura completamente a mana do usuário e aumenta seu poder mágico.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Mago Supremo",
+                "Feiticeiro"
+            ]
+        },
+        "Anel de Vigor": {
+            "descrição": "Um anel que aumenta a vitalidade e força do portador.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Guerreiro",
+                "Bárbaro"
+            ]
+        },
+        "Armadura de Gelo": {
+            "descrição": "Uma armadura que concede proteção adicional contra ataques de gelo.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Dragão de Gelo",
+                "Elemental de Gelo"
+            ]
+        },
+        "Pergaminho de Teleporte": {
+            "descrição": "Um pergaminho que permite ao usuário se teletransportar para outro local.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Mago",
+                "Ilusionista"
+            ]
+        },
+        "Espada de Luz Divina": {
+            "descrição": "Uma espada que emite luz sagrada, causando dano adicional a inimigos das trevas.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Necromante",
+                "Demônio"
+            ]
+        },
+        "Poção de Invulnerabilidade": {
+            "descrição": "Uma poção que concede invulnerabilidade temporária ao usuário.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Chefe de Masmorra",
+                "Dragão"
+            ]
+        },
+        "Bracelete de Magia": {
+            "descrição": "Um bracelete que aumenta o poder mágico do portador.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Mago",
+                "Feiticeiro"
+            ]
+        },
+        "Capa da Tempestade": {
+            "descrição": "Uma capa que concede controle sobre o clima e resistência a ataques de tempestade.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Tempestade",
+                "Elemental de Tempestade"
+            ]
+        },
+        "Elixir de Poder": {
+            "descrição": "Um elixir que aumenta permanentemente o poder do usuário.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Chefe de Masmorra",
+                "Dragão"
+            ]
+        },
+        "Poção de Invisibilidade Suprema": {
+            "descrição": "Uma poção que torna o usuário invisível por um longo período e evita detecção.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Assassino",
+                "Ilusionista"
+            ]
+        },
+        "Amuleto de Defesa": {
+            "descrição": "Um amuleto que aumenta a defesa do usuário contra ataques físicos e mágicos.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Guarda",
+                "Soldado"
+            ]
+        },
+        "Coração de Fada": {
+            "descrição": "Um item mágico que concede habilidades especiais ao portador.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Fada",
+                "Chefe de Fada"
+            ]
+        },
+        "Poção de Força Suprema": {
+            "descrição": "Uma poção que aumenta significativamente a força do usuário.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Bárbaro",
+                "Titã"
+            ]
+        },
+        "Espada de Relâmpago": {
+            "descrição": "Uma espada que canaliza eletricidade, causando dano adicional e paralisando inimigos.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Elemental de Relâmpago",
+                "Tempestade"
+            ]
+        },
+        "Escudo de Gelo": {
+            "descrição": "Um escudo que oferece proteção adicional contra ataques de gelo.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Dragão de Gelo",
+                "Elemental de Gelo"
+            ]
+        },
+        "Poção de Resistência Suprema": {
+            "descrição": "Uma poção que aumenta significativamente a resistência do usuário a danos.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Chefe de Masmorra",
+                "Golem"
+            ]
+        },
+        "Bracelete de Agilidade": {
+            "descrição": "Um bracelete que melhora a agilidade e velocidade do portador.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Ladrão",
+                "Acrobata"
+            ]
+        },
+        "Armadura de Fogo": {
+            "descrição": "Uma armadura que concede resistência adicional ao fogo e aumenta o ataque de fogo.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Dragão de Fogo",
+                "Efígie de Fogo"
+            ]
+        },
+        "Elmo de Força": {
+            "descrição": "Um elmo que aumenta a força do portador e a resistência física.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Guerreiro",
+                "Bárbaro"
+            ]
+        },
+        "Poção de Vitalidade Suprema": {
+            "descrição": "Uma poção que restaura completamente a saúde e aumenta a vitalidade do usuário.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Chefe de Masmorra",
+                "Dragão"
+            ]
+        },
+        "Anel de Invisibilidade": {
+            "descrição": "Um anel que concede invisibilidade temporária ao portador.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Ilusionista",
+                "Assassino"
+            ]
+        },
+        "Poção de Magia de Fogo": {
+            "descrição": "Uma poção que aumenta o poder dos feitiços de fogo do usuário.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Mago de Fogo",
+                "Feiticeiro"
+            ]
+        },
+        "Espada de Veneno": {
+            "descrição": "Uma espada que causa envenenamento nos inimigos ao atingir.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Serpente",
+                "Monstro Venenoso"
+            ]
+        },
+        "Coração de Terra": {
+            "descrição": "Um item que concede habilidades relacionadas à terra e aumento de defesa.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Golem de Terra",
+                "Elemental de Terra"
+            ]
+        },
+        "Poção de Resistência ao Veneno": {
+            "descrição": "Uma poção que concede resistência a venenos e toxinas.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Serpente",
+                "Monstro Venenoso"
+            ]
+        },
+        "Capa de Defesa": {
+            "descrição": "Uma capa que concede uma defesa adicional contra todos os tipos de ataques.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Guarda",
+                "Soldado"
+            ]
+        },
+        "Anel de Magia Elementar": {
+            "descrição": "Um anel que aumenta o poder mágico dos feitiços elementares.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Elemental de Fogo",
+                "Elemental de Gelo"
+            ]
+        },
+        "Poção de Velocidade": {
+            "descrição": "Uma poção que aumenta a velocidade do usuário por um período.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Ladrão",
+                "Acrobata"
+            ]
+        },
+        "Armadura de Relâmpago": {
+            "descrição": "Uma armadura que concede proteção contra ataques elétricos e aumenta o poder de relâmpago.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Elemental de Relâmpago",
+                "Tempestade"
+            ]
+        },
+        "Elmo de Magia": {
+            "descrição": "Um elmo que aumenta a potência mágica do usuário.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Mago",
+                "Feiticeiro"
+            ]
+        },
+        "Poção de Cura Avançada": {
+            "descrição": "Uma poção que restaura uma grande quantidade de saúde instantaneamente.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Clérigo",
+                "Sacerdote"
+            ]
+        },
+        "Espada de Trevas": {
+            "descrição": "Uma espada que causa dano adicional e enfraquece os inimigos ao atingir.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Necromante",
+                "Demônio"
+            ]
+        },
+        "Poção de Força de Dragão": {
+            "descrição": "Uma poção que concede força adicional e resistência a ataques.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Dragão",
+                "Titã"
+            ]
+        },
+        "Amuleto de Fogo": {
+            "descrição": "Um amuleto que aumenta o poder dos ataques de fogo.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Dragão de Fogo",
+                "Mago de Fogo"
+            ]
+        },
+        "Coração de Dragão": {
+            "descrição": "Um item poderoso que concede habilidades especiais relacionadas a dragões.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Dragão"
+            ]
+        },
+        "Poção de Defesa Suprema": {
+            "descrição": "Uma poção que aumenta significativamente a defesa do usuário.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Chefe de Masmorra",
+                "Dragão"
+            ]
+        },
+        "Espada de Fogo Eterno": {
+            "descrição": "Uma espada que emite chamas eternas, causando dano contínuo aos inimigos.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Dragão de Fogo",
+                "Demônio"
+            ]
+        },
+        "Poção de Cura Suprema": {
+            "descrição": "Uma poção que restaura completamente a saúde do usuário.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Chefe de Masmorra",
+                "Dragão"
+            ]
+        },
+        "Anel de Tempo": {
+            "descrição": "Um anel que permite ao usuário manipular o tempo por curtos períodos.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Mago do Tempo",
+                "Ilusionista"
+            ]
+        },
+        "Poção de Energia": {
+            "descrição": "Uma poção que restaura a energia e a mana do usuário.",
+            "raridade": "Raro",
+            "inimigos": [
+                "Mago",
+                "Feiticeiro"
+            ]
+        },
+        "Espada do Destino": {
+            "descrição": "Uma espada que pode mudar o curso da batalha com ataques poderosos.",
+            "raridade": "Muito Raro",
+            "inimigos": [
+                "Chefe de Masmorra",
+                "Dragão"
+            ]
+        }
+    }
+}

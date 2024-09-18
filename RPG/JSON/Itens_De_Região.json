@@ -1,0 +1,158 @@
+{
+    "Itens de Venda por Região": {
+        "Região do Deserto": {
+            "Espada do Deserto": {
+                "tipo": "Arma",
+                "descrição": "Uma espada forjada nas dunas do deserto, ideal para climas quentes.",
+                "valor": 300,
+                "raridade": "Raro"
+            },
+            "Poção de Areia": {
+                "tipo": "Consumível",
+                "descrição": "Restaura uma quantidade moderada de saúde e fornece resistência ao calor.",
+                "valor": 150,
+                "raridade": "Incomum"
+            }
+        },
+        "Região da Montanha": {
+            "Martelo de Pedra": {
+                "tipo": "Arma",
+                "descrição": "Um martelo robusto feito de pedra das montanhas, ideal para combate físico.",
+                "valor": 400,
+                "raridade": "Raro"
+            },
+            "Poção de Resistência à Frieza": {
+                "tipo": "Consumível",
+                "descrição": "Aumenta a resistência do usuário a baixas temperaturas.",
+                "valor": 180,
+                "raridade": "Incomum"
+            }
+        },
+        "Cidade do Mar": {
+            "Espada da Maré": {
+                "tipo": "Arma",
+                "descrição": "Uma espada encantada com a força das marés.",
+                "valor": 350,
+                "raridade": "Raro"
+            },
+            "Poção de Vigor Marinho": {
+                "tipo": "Consumível",
+                "descrição": "Aumenta a resistência e a velocidade do usuário enquanto estiver em contato com a água.",
+                "valor": 200,
+                "raridade": "Incomum"
+            }
+        },
+        "Floresta Encantada": {
+            "Arco de Madeira Mágica": {
+                "tipo": "Arma",
+                "descrição": "Um arco feito com madeira encantada, proporciona maior precisão em combate.",
+                "valor": 450,
+                "raridade": "Raro"
+            },
+            "Poção de Camuflagem": {
+                "tipo": "Consumível",
+                "descrição": "Torna o usuário temporariamente invisível nas áreas florestais.",
+                "valor": 250,
+                "raridade": "Incomum"
+            }
+        },
+        "Ruínas Antigas": {
+            "Lâmina de Ouro Antigo": {
+                "tipo": "Arma",
+                "descrição": "Uma lâmina antiga feita de ouro, encontrada nas ruínas.",
+                "valor": 500,
+                "raridade": "Muito Raro"
+            },
+            "Poção de Conhecimento Perdido": {
+                "tipo": "Consumível",
+                "descrição": "Revela segredos e pistas sobre as antigas ruínas.",
+                "valor": 300,
+                "raridade": "Raro"
+            }
+        },
+        "Vila dos Magos": {
+            "Cajado de Fogo": {
+                "tipo": "Arma",
+                "descrição": "Um cajado mágico que controla as chamas.",
+                "valor": 600,
+                "raridade": "Muito Raro"
+            },
+            "Poção de Magia Suprema": {
+                "tipo": "Consumível",
+                "descrição": "Aumenta temporariamente o poder mágico do usuário.",
+                "valor": 350,
+                "raridade": "Muito Raro"
+            }
+        },
+        "Cidade das Engenhocas": {
+            "Armadura de Engrenagens": {
+                "tipo": "Armadura",
+                "descrição": "Uma armadura feita com engrenagens e peças mecânicas, oferece proteção e resistência.",
+                "valor": 700,
+                "raridade": "Muito Raro"
+            },
+            "Poção de Tecnologia Avançada": {
+                "tipo": "Consumível",
+                "descrição": "Melhora a habilidade do usuário com tecnologias e mecanismos.",
+                "valor": 400,
+                "raridade": "Muito Raro"
+            }
+        },
+        "Terras Gélidas": {
+            "Espada de Gelo": {
+                "tipo": "Arma",
+                "descrição": "Uma espada que causa dano de gelo e pode congelar os inimigos.",
+                "valor": 800,
+                "raridade": "Épico"
+            },
+            "Poção de Resistência ao Frio": {
+                "tipo": "Consumível",
+                "descrição": "Aumenta a resistência do usuário ao frio extremo.",
+                "valor": 450,
+                "raridade": "Épico"
+            }
+        },
+        "Caverna dos Dragões": {
+            "Escudo de Dragão": {
+                "tipo": "Armadura",
+                "descrição": "Um escudo feito das escamas de um dragão, oferece proteção imensa.",
+                "valor": 1000,
+                "raridade": "Épico"
+            },
+            "Poção de Força de Dragão": {
+                "tipo": "Consumível",
+                "descrição": "Aumenta a força do usuário temporariamente com a essência de um dragão.",
+                "valor": 600,
+                "raridade": "Épico"
+            }
+        },
+        "Templo da Luz": {
+            "Cajado da Luz": {
+                "tipo": "Arma",
+                "descrição": "Um cajado que emite luz pura e causa dano sagrado.",
+                "valor": 1200,
+                "raridade": "Lendário"
+            },
+            "Poção de Clareza Espiritual": {
+                "tipo": "Consumível",
+                "descrição": "Melhora a clareza mental e a conexão espiritual do usuário.",
+                "valor": 700,
+                "raridade": "Lendário"
+            }
+        },
+        "Território dos Goblins": {
+            "Adaga do Goblin": {
+                "tipo": "Arma",
+                "descrição": "Uma adaga afiada utilizada pelos goblins.",
+                "valor": 200,
+                "raridade": "Comum"
+            },
+            "Poção de Invisibilidade dos Goblins": {
+                "tipo": "Consumível",
+                "descrição": "Permite que o usuário se torne invisível para os inimigos.",
+                "valor": 150,
+                "raridade": "Comum"
+            }
+        }
+    }
+}

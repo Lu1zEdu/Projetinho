@@ -1,0 +1,226 @@
+{
+    "Itens de Venda": {
+        "Escudo de Ferro": {
+            "tipo": "Armadura",
+            "descrição": "Um escudo resistente feito de ferro sólido.",
+            "valor": 150,
+            "raridade": "Comum"
+        },
+        "Poção de Cura": {
+            "tipo": "Consumível",
+            "descrição": "Restaura uma quantidade básica de saúde.",
+            "valor": 50,
+            "raridade": "Comum"
+        },
+        "Espada Enferrujada": {
+            "tipo": "Arma",
+            "descrição": "Uma espada antiga e enferrujada. Ainda afiada o suficiente para causar dano.",
+            "valor": 75,
+            "raridade": "Comum"
+        },
+        "Anel de Pedra": {
+            "tipo": "Acessório",
+            "descrição": "Um anel simples com uma pedra comum.",
+            "valor": 100,
+            "raridade": "Comum"
+        },
+        "Poção de Mana": {
+            "tipo": "Consumível",
+            "descrição": "Restaura uma quantidade básica de mana.",
+            "valor": 80,
+            "raridade": "Comum"
+        },
+        "Espada Curva": {
+            "tipo": "Arma",
+            "descrição": "Uma espada com lâmina curva que é eficaz em combate.",
+            "valor": 200,
+            "raridade": "Incomum"
+        },
+        "Armadura de Couro": {
+            "tipo": "Armadura",
+            "descrição": "Armadura leve feita de couro para proteção básica.",
+            "valor": 250,
+            "raridade": "Incomum"
+        },
+        "Colar de Jade": {
+            "tipo": "Acessório",
+            "descrição": "Um colar com um pequeno jade embutido.",
+            "valor": 150,
+            "raridade": "Incomum"
+        },
+        "Poção de Velocidade": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta temporariamente a velocidade do usuário.",
+            "valor": 180,
+            "raridade": "Incomum"
+        },
+        "Armadura de Ferro": {
+            "tipo": "Armadura",
+            "descrição": "Armadura resistente feita de ferro.",
+            "valor": 300,
+            "raridade": "Raro"
+        },
+        "Espada Longa": {
+            "tipo": "Arma",
+            "descrição": "Uma espada longa que causa dano considerável.",
+            "valor": 350,
+            "raridade": "Raro"
+        },
+        "Anel de Proteção": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que oferece uma pequena proteção adicional.",
+            "valor": 200,
+            "raridade": "Raro"
+        },
+        "Poção de Invisibilidade": {
+            "tipo": "Consumível",
+            "descrição": "Torna o usuário invisível por um curto período.",
+            "valor": 300,
+            "raridade": "Raro"
+        },
+        "Espada de Fogo": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que causa dano de fogo aos inimigos.",
+            "valor": 450,
+            "raridade": "Muito Raro"
+        },
+        "Armadura Mágica": {
+            "tipo": "Armadura",
+            "descrição": "Armadura que oferece proteção mágica adicional.",
+            "valor": 500,
+            "raridade": "Muito Raro"
+        },
+        "Amuleto de Proteção": {
+            "tipo": "Acessório",
+            "descrição": "Um amuleto que protege contra ataques mágicos e físicos.",
+            "valor": 350,
+            "raridade": "Muito Raro"
+        },
+        "Poção de Aumenta Força": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta temporariamente a força física do usuário.",
+            "valor": 400,
+            "raridade": "Muito Raro"
+        },
+        "Espada da Tempestade": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que causa dano elétrico e pode criar tempestades.",
+            "valor": 600,
+            "raridade": "Muito Raro"
+        },
+        "Armadura do Dragão": {
+            "tipo": "Armadura",
+            "descrição": "Armadura feita com escamas de dragão, oferece proteção excelente.",
+            "valor": 700,
+            "raridade": "Lendário"
+        },
+        "Anel da Sabedoria": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que aumenta a inteligência e a sabedoria do usuário.",
+            "valor": 600,
+            "raridade": "Lendário"
+        },
+        "Poção de Cura Suprema": {
+            "tipo": "Consumível",
+            "descrição": "Restaura completamente a saúde e remove todas as condições adversas.",
+            "valor": 800,
+            "raridade": "Lendário"
+        },
+        "Espada da Aurora": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que emite uma luz radiante e causa dano intenso.",
+            "valor": 900,
+            "raridade": "Lendário"
+        },
+        "Armadura de Cristal": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura feita de cristal, oferecendo proteção e beleza.",
+            "valor": 1000,
+            "raridade": "Lendário"
+        },
+        "Anel da Transcendência": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que concede habilidades transcendentes e melhora todas as estatísticas.",
+            "valor": 1200,
+            "raridade": "Lendário"
+        },
+        "Poção de Imunidade": {
+            "tipo": "Consumível",
+            "descrição": "Torna o usuário imune a todos os tipos de venenos e doenças por um período.",
+            "valor": 1300,
+            "raridade": "Lendário"
+        },
+        "Espada do Destino": {
+            "tipo": "Arma",
+            "descrição": "Uma espada mística que pode alterar o destino do usuário.",
+            "valor": 1500,
+            "raridade": "Lendário"
+        },
+        "Armadura do Imperador": {
+            "tipo": "Armadura",
+            "descrição": "Armadura digna de um imperador, com proteção máxima.",
+            "valor": 2000,
+            "raridade": "Épico"
+        },
+        "Anel do Imperador": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que oferece poder e status de imperador.",
+            "valor": 1800,
+            "raridade": "Épico"
+        },
+        "Poção do Céu": {
+            "tipo": "Consumível",
+            "descrição": "Uma poção que concede habilidades sobre-humanas e poder celestial temporário.",
+            "valor": 2000,
+            "raridade": "Épico"
+        },
+        "Espada dos Deuses": {
+            "tipo": "Arma",
+            "descrição": "Uma espada divina que pode cortar até mesmo as sombras.",
+            "valor": 2500,
+            "raridade": "Épico"
+        },
+        "Armadura dos Deuses": {
+            "tipo": "Armadura",
+            "descrição": "Armadura sagrada com proteção incomparável.",
+            "valor": 3000,
+            "raridade": "Épico"
+        },
+        "Anel da Eternidade": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que concede ao usuário uma vida eterna e habilidades divinas.",
+            "valor": 3500,
+            "raridade": "Épico"
+        },
+        "Poção da Verdade": {
+            "tipo": "Consumível",
+            "descrição": "Revela toda a verdade e informações ocultas ao usuário.",
+            "valor": 4000,
+            "raridade": "Épico"
+        },
+        "Espada do Tempo": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que controla o tempo e pode parar os inimigos.",
+            "valor": 4500,
+            "raridade": "Épico"
+        },
+        "Armadura do Infinito": {
+            "tipo": "Armadura",
+            "descrição": "Armadura que oferece proteção infinita e habilidades supremas.",
+            "valor": 5000,
+            "raridade": "Épico"
+        },
+        "Anel do Dragão": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que confere poderes dracônicos e grande resistência.",
+            "valor": 6000,
+            "raridade": "Épico"
+        },
+        "Poção do Abismo": {
+            "tipo": "Consumível",
+            "descrição": "Uma poção que concede poderes abissais e habilidades aterrorizantes.",
+            "valor": 7000,
+            "raridade": "Épico"
+        }
+    }
+}

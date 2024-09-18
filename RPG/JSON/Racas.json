@@ -1,0 +1,404 @@
+{
+    "Espécies": {
+        "Humanos": {
+            "descrição": "A espécie mais comum e versátil, conhecida por sua adaptabilidade e habilidades diversas.",
+            "habilidades_especiais": [
+                "Versatilidade",
+                "Adaptabilidade"
+            ],
+            "habitat": [
+                "Cidades",
+                "Vilarejos",
+                "Campos"
+            ],
+            "comportamento": [
+                "Curiosos",
+                "Ambiciosos",
+                "Cooperativos"
+            ]
+        },
+        "Elfos": {
+            "descrição": "Seres graciosos e de longa vida, conhecidos por suas habilidades arcanas e agilidade.",
+            "habilidades_especiais": [
+                "Habilidade Arcanas",
+                "Agilidade Aumentada"
+            ],
+            "habitat": [
+                "Florestas",
+                "Áreas Mágicas"
+            ],
+            "comportamento": [
+                "Sábios",
+                "Reservados",
+                "Protetores da Natureza"
+            ]
+        },
+        "Anões": {
+            "descrição": "Seres robustos e fortes, mestres na construção e mineração, conhecidos por sua resistência.",
+            "habilidades_especiais": [
+                "Resistência Física",
+                "Habilidade em Mineração"
+            ],
+            "habitat": [
+                "Montanhas",
+                "Cavernas"
+            ],
+            "comportamento": [
+                "Determinados",
+                "Orgulhosos",
+                "Trabalhadores"
+            ]
+        },
+        "Orcs": {
+            "descrição": "Criaturas ferozes e guerreiras, conhecidas por sua força bruta e comportamento agressivo.",
+            "habilidades_especiais": [
+                "Força Bruta",
+                "Resistência a Danos"
+            ],
+            "habitat": [
+                "Terrenos Ásperos",
+                "Campos de Batalha"
+            ],
+            "comportamento": [
+                "Agressivos",
+                "Brutais",
+                "Tribais"
+            ]
+        },
+        "Dragões": {
+            "descrição": "Seres poderosos e majestosos, conhecidos por seu imenso poder mágico e físico.",
+            "habilidades_especiais": [
+                "Sopro de Fogo",
+                "Imunidade Mágica"
+            ],
+            "habitat": [
+                "Cavernas Profundas",
+                "Montanhas Altas"
+            ],
+            "comportamento": [
+                "Solitary",
+                "Orgulhosos",
+                "Guardadores de Tesouros"
+            ]
+        },
+        "Goblins": {
+            "descrição": "Pequenos e astutos, conhecidos por suas habilidades em furtividade e trapacear.",
+            "habilidades_especiais": [
+                "Furtividade",
+                "Artesanato de Armas"
+            ],
+            "habitat": [
+                "Ruínas",
+                "Bosques Escuros"
+            ],
+            "comportamento": [
+                "Tricksters",
+                "Cautelosos",
+                "Tendência a Formar Bandos"
+            ]
+        },
+        "Trolls": {
+            "descrição": "Criaturas grandes e regenerativas, conhecidas por sua força imensa e habilidades regenerativas.",
+            "habilidades_especiais": [
+                "Regeneração Rápida",
+                "Força Bruta"
+            ],
+            "habitat": [
+                "Pântanos",
+                "Florestas"
+            ],
+            "comportamento": [
+                "Solitary",
+                "Destrutivos",
+                "Protetores de Territórios"
+            ]
+        },
+        "Fadas": {
+            "descrição": "Seres pequenos e mágicos, conhecidos por sua habilidade de manipular a magia e seu comportamento travesso.",
+            "habilidades_especiais": [
+                "Magia de Ilusão",
+                "Capacidade de Voar"
+            ],
+            "habitat": [
+                "Florestas Encantadas",
+                "Jardins Mágicos"
+            ],
+            "comportamento": [
+                "Brincalhonas",
+                "Curiosas",
+                "Amigáveis com a Natureza"
+            ]
+        },
+        "Vampiros": {
+            "descrição": "Seres noturnos e sedentos por sangue, conhecidos por sua força sobre-humana e habilidades vampíricas.",
+            "habilidades_especiais": [
+                "Força Sobrenatural",
+                "Regeneração Lenta"
+            ],
+            "habitat": [
+                "Castelos Abandonados",
+                "Ruínas"
+            ],
+            "comportamento": [
+                "Sombrios",
+                "Estrategistas",
+                "Socialmente Isolados"
+            ]
+        },
+        "Lobisomens": {
+            "descrição": "Criaturas que se transformam em lobos, conhecidas por sua ferocidade e habilidades de rastreamento.",
+            "habilidades_especiais": [
+                "Transformação",
+                "Sentidos Aguçados"
+            ],
+            "habitat": [
+                "Florestas",
+                "Montanhas"
+            ],
+            "comportamento": [
+                "Territoriais",
+                "Instintivos",
+                "Nocturnos"
+            ]
+        },
+        "Sirenas": {
+            "descrição": "Seres aquáticos encantadores, conhecidos por suas habilidades de seduzir e habilidades subaquáticas.",
+            "habilidades_especiais": [
+                "Canto Sedutor",
+                "Nado Rápido"
+            ],
+            "habitat": [
+                "Oceano",
+                "Lagos"
+            ],
+            "comportamento": [
+                "Encantadoras",
+                "Misteriosas",
+                "Protegem Seus Territórios Subaquáticos"
+            ]
+        },
+        "Quimeras": {
+            "descrição": "Criaturas míticas com a combinação de várias partes de animais, conhecidas por suas habilidades devastadoras.",
+            "habilidades_especiais": [
+                "Ataques Múltiplos",
+                "Resistência a Magia"
+            ],
+            "habitat": [
+                "Regiões Montanhosas",
+                "Terrenos Acidentados"
+            ],
+            "comportamento": [
+                "Agressivos",
+                "Territoriais",
+                "Raros"
+            ]
+        },
+        "Ciclopes": {
+            "descrição": "Gigantes de um olho só, conhecidos por sua força imensa e habilidades de construção.",
+            "habilidades_especiais": [
+                "Força Colossal",
+                "Habilidade em Construção"
+            ],
+            "habitat": [
+                "Montanhas",
+                "Planícies"
+            ],
+            "comportamento": [
+                "Solitary",
+                "Trabalhadores",
+                "Isolados"
+            ]
+        },
+        "Homem-Rã": {
+            "descrição": "Criaturas anfíbias com habilidades de natação e salto.",
+            "habilidades_especiais": [
+                "Natação Ágil",
+                "Salto Longo"
+            ],
+            "habitat": [
+                "Pântanos",
+                "Lagos"
+            ],
+            "comportamento": [
+                "Curiosos",
+                "Furtivos",
+                "Habitam Áreas Úmidas"
+            ]
+        },
+        "Gárgulas": {
+            "descrição": "Estátuas animadas que ganham vida à noite, conhecidas por sua resistência e habilidades defensivas.",
+            "habilidades_especiais": [
+                "Resistência a Danos",
+                "Transformação de Pedra"
+            ],
+            "habitat": [
+                "Templos",
+                "Catedrais"
+            ],
+            "comportamento": [
+                "Protetores",
+                "Noturnos",
+                "Apegados a Seus Territórios"
+            ]
+        },
+        "Dragões Marinhos": {
+            "descrição": "Seres imensos e poderosos que habitam as profundezas do oceano.",
+            "habilidades_especiais": [
+                "Sopro de Água",
+                "Mergulho Profundo"
+            ],
+            "habitat": [
+                "Oceano Profundo"
+            ],
+            "comportamento": [
+                "Solitary",
+                "Territoriais",
+                "Raramente Vistos"
+            ]
+        },
+        "Aranhas Gigantes": {
+            "descrição": "Aranhas enormes e venenosas que habitam cavernas e florestas densas.",
+            "habilidades_especiais": [
+                "Teia Aderente",
+                "Veneno Potente"
+            ],
+            "habitat": [
+                "Cavernas",
+                "Florestas"
+            ],
+            "comportamento": [
+                "Territoriais",
+                "Caçadoras",
+                "Construtoras de Teias"
+            ]
+        },
+        "Furões Mágicos": {
+            "descrição": "Pequenos seres encantados com habilidades mágicas e furtivas.",
+            "habilidades_especiais": [
+                "Furtividade",
+                "Magia Menor"
+            ],
+            "habitat": [
+                "Florestas",
+                "Campos"
+            ],
+            "comportamento": [
+                "Brincalhões",
+                "Espertos",
+                "Sociais"
+            ]
+        },
+        "Súcubos": {
+            "descrição": "Seres demoníacos sedutores que absorvem energia vital.",
+            "habilidades_especiais": [
+                "Sedução",
+                "Absorção de Energia"
+            ],
+            "habitat": [
+                "Infernos",
+                "Locais Sombrio"
+            ],
+            "comportamento": [
+                "Manipuladores",
+                "Sedutores",
+                "Perigosos"
+            ]
+        },
+        "Golem de Pedra": {
+            "descrição": "Criaturas de pedra animadas por magia, conhecidas por sua resistência e força.",
+            "habilidades_especiais": [
+                "Força Bruta",
+                "Resistência a Danos"
+            ],
+            "habitat": [
+                "Ruínas",
+                "Montanhas"
+            ],
+            "comportamento": [
+                "Guardião",
+                "Protetores",
+                "Imunes a Magias Menores"
+            ]
+        },
+        "Elementais de Fogo": {
+            "descrição": "Seres feitos de pura energia de fogo, conhecidos por sua capacidade de manipular chamas.",
+            "habilidades_especiais": [
+                "Sopro de Fogo",
+                "Manipulação de Chamas"
+            ],
+            "habitat": [
+                "Vulcões",
+                "Desertos"
+            ],
+            "comportamento": [
+                "Destrutivos",
+                "Instáveis",
+                "Protetores de Fontes de Fogo"
+            ]
+        },
+        "Elementais de Água": {
+            "descrição": "Seres formados por água, conhecidos por suas habilidades aquáticas e fluidez.",
+            "habilidades_especiais": [
+                "Manipulação de Água",
+                "Natação Ágil"
+            ],
+            "habitat": [
+                "Oceano",
+                "Lagos"
+            ],
+            "comportamento": [
+                "Pacíficos",
+                "Protetores de Áreas Aquáticas",
+                "Adaptáveis"
+            ]
+        },
+        "Elementais de Terra": {
+            "descrição": "Seres formados pela terra, conhecidos por sua força e resistência.",
+            "habilidades_especiais": [
+                "Manipulação da Terra",
+                "Resistência a Danos"
+            ],
+            "habitat": [
+                "Montanhas",
+                "Cavernas"
+            ],
+            "comportamento": [
+                "Lentos",
+                "Protetores de Territórios",
+                "Resistentes"
+            ]
+        },
+        "Elementais de Ar": {
+            "descrição": "Seres etéreos formados pelo ar, conhecidos por sua agilidade e habilidade de voar.",
+            "habilidades_especiais": [
+                "Manipulação do Ar",
+                "Voo Ágil"
+            ],
+            "habitat": [
+                "Céus",
+                "Planícies Altas"
+            ],
+            "comportamento": [
+                "Ágeis",
+                "Curiosos",
+                "Protetores de Áreas Elevadas"
+            ]
+        },
+        "Leprechauns": {
+            "descrição": "Seres pequenos e astutos conhecidos por sua habilidade em encontrar tesouros.",
+            "habilidades_especiais": [
+                "Boa Sorte",
+                "Esconderijo de Tesouros"
+            ],
+            "habitat": [
+                "Campos",
+                "Áreas Mágicas"
+            ],
+            "comportamento": [
+                "Brincalhões",
+                "Evasivos",
+                "Protetores de Seus Tesouros"
+            ]
+        }
+    }
+}

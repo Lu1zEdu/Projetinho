@@ -1,0 +1,806 @@
+[
+    {
+        "Inimigos": {
+            "Dragão": {
+                "vida": 300,
+                "ataque_fisico": 30,
+                "defesa": 30,
+                "ataque_especial": 40,
+                "defesa_especial": 25,
+                "Xp": 500,
+                "dano": 50,
+                "nivel_min": 5,
+                "nivel_max": 10,
+                "vida_maxima": 300,
+                "raridade": "Raro",
+                "locais": [
+                    "Montanhas",
+                    "Cavernas",
+                    "Terras Proibidas"
+                ]
+            },
+            "Goblin": {
+                "vida": 50,
+                "ataque_fisico": 10,
+                "defesa": 5,
+                "ataque_especial": 0,
+                "defesa_especial": 2,
+                "Xp": 50,
+                "dano": 5,
+                "nivel_min": 1,
+                "nivel_max": 3,
+                "vida_maxima": 50,
+                "raridade": "Comum",
+                "locais": [
+                    "Florestas",
+                    "Aldeias",
+                    "Ruínas"
+                ]
+            },
+            "Orc": {
+                "vida": 120,
+                "ataque_fisico": 20,
+                "defesa": 15,
+                "ataque_especial": 5,
+                "defesa_especial": 10,
+                "Xp": 150,
+                "dano": 20,
+                "nivel_min": 3,
+                "nivel_max": 6,
+                "vida_maxima": 120,
+                "raridade": "Comum",
+                "locais": [
+                    "Florestas",
+                    "Cavernas",
+                    "Campos"
+                ]
+            },
+            "Troll": {
+                "vida": 200,
+                "ataque_fisico": 25,
+                "defesa": 20,
+                "ataque_especial": 10,
+                "defesa_especial": 15,
+                "Xp": 300,
+                "dano": 30,
+                "nivel_min": 5,
+                "nivel_max": 8,
+                "vida_maxima": 200,
+                "raridade": "Incomum",
+                "locais": [
+                    "Montanhas",
+                    "Pântanos",
+                    "Cavernas"
+                ]
+            },
+            "Esqueleto": {
+                "vida": 60,
+                "ataque_fisico": 15,
+                "defesa": 10,
+                "ataque_especial": 0,
+                "defesa_especial": 5,
+                "Xp": 75,
+                "dano": 10,
+                "nivel_min": 2,
+                "nivel_max": 4,
+                "vida_maxima": 60,
+                "raridade": "Comum",
+                "locais": [
+                    "Ruínas",
+                    "Cemitérios",
+                    "Catacumbas"
+                ]
+            },
+            "Lobo": {
+                "vida": 40,
+                "ataque_fisico": 12,
+                "defesa": 8,
+                "ataque_especial": 0,
+                "defesa_especial": 3,
+                "Xp": 60,
+                "dano": 8,
+                "nivel_min": 1,
+                "nivel_max": 2,
+                "vida_maxima": 40,
+                "raridade": "Comum",
+                "locais": [
+                    "Florestas",
+                    "Montanhas",
+                    "Campos"
+                ]
+            },
+            "Golem": {
+                "vida": 250,
+                "ataque_fisico": 35,
+                "defesa": 30,
+                "ataque_especial": 20,
+                "defesa_especial": 25,
+                "Xp": 400,
+                "dano": 40,
+                "nivel_min": 6,
+                "nivel_max": 9,
+                "vida_maxima": 250,
+                "raridade": "Raro",
+                "locais": [
+                    "Montanhas",
+                    "Ruínas",
+                    "Cavernas"
+                ]
+            },
+            "Aranha Gigante": {
+                "vida": 80,
+                "ataque_fisico": 18,
+                "defesa": 12,
+                "ataque_especial": 0,
+                "defesa_especial": 10,
+                "Xp": 100,
+                "dano": 15,
+                "nivel_min": 3,
+                "nivel_max": 5,
+                "vida_maxima": 80,
+                "raridade": "Incomum",
+                "locais": [
+                    "Florestas",
+                    "Cavernas",
+                    "Ruínas"
+                ]
+            },
+            "Zumbi": {
+                "vida": 70,
+                "ataque_fisico": 12,
+                "defesa": 8,
+                "ataque_especial": 0,
+                "defesa_especial": 5,
+                "Xp": 80,
+                "dano": 10,
+                "nivel_min": 2,
+                "nivel_max": 4,
+                "vida_maxima": 70,
+                "raridade": "Comum",
+                "locais": [
+                    "Cemitérios",
+                    "Catacumbas",
+                    "Ruínas"
+                ]
+            },
+            "Lich": {
+                "vida": 150,
+                "ataque_fisico": 10,
+                "defesa": 15,
+                "ataque_especial": 40,
+                "defesa_especial": 30,
+                "Xp": 500,
+                "dano": 35,
+                "nivel_min": 8,
+                "nivel_max": 10,
+                "vida_maxima": 150,
+                "raridade": "Raro",
+                "locais": [
+                    "Catacumbas",
+                    "Ruínas",
+                    "Castelos"
+                ]
+            },
+            "Basilisco": {
+                "vida": 180,
+                "ataque_fisico": 20,
+                "defesa": 18,
+                "ataque_especial": 25,
+                "defesa_especial": 20,
+                "Xp": 350,
+                "dano": 28,
+                "nivel_min": 6,
+                "nivel_max": 9,
+                "vida_maxima": 180,
+                "raridade": "Raro",
+                "locais": [
+                    "Florestas",
+                    "Montanhas",
+                    "Cavernas"
+                ]
+            },
+            "Fantasma": {
+                "vida": 100,
+                "ataque_fisico": 5,
+                "defesa": 5,
+                "ataque_especial": 30,
+                "defesa_especial": 20,
+                "Xp": 200,
+                "dano": 20,
+                "nivel_min": 4,
+                "nivel_max": 6,
+                "vida_maxima": 100,
+                "raridade": "Incomum",
+                "locais": [
+                    "Ruínas",
+                    "Castelos",
+                    "Cemitérios"
+                ]
+            },
+            "Vampiro": {
+                "vida": 150,
+                "ataque_fisico": 25,
+                "defesa": 15,
+                "ataque_especial": 35,
+                "defesa_especial": 30,
+                "Xp": 450,
+                "dano": 40,
+                "nivel_min": 7,
+                "nivel_max": 10,
+                "vida_maxima": 150,
+                "raridade": "Raro",
+                "locais": [
+                    "Castelos",
+                    "Cavernas",
+                    "Ruínas"
+                ]
+            },
+            "Slime": {
+                "vida": 30,
+                "ataque_fisico": 8,
+                "defesa": 3,
+                "ataque_especial": 5,
+                "defesa_especial": 2,
+                "Xp": 40,
+                "dano": 6,
+                "nivel_min": 1,
+                "nivel_max": 2,
+                "vida_maxima": 30,
+                "raridade": "Comum",
+                "locais": [
+                    "Cavernas",
+                    "Campos",
+                    "Florestas"
+                ]
+            },
+            "Homem-Lagarto": {
+                "vida": 90,
+                "ataque_fisico": 18,
+                "defesa": 12,
+                "ataque_especial": 10,
+                "defesa_especial": 8,
+                "Xp": 150,
+                "dano": 16,
+                "nivel_min": 3,
+                "nivel_max": 5,
+                "vida_maxima": 90,
+                "raridade": "Comum",
+                "locais": [
+                    "Pântanos",
+                    "Rios",
+                    "Lagos"
+                ]
+            },
+            "Minotauro": {
+                "vida": 250,
+                "ataque_fisico": 40,
+                "defesa": 35,
+                "ataque_especial": 15,
+                "defesa_especial": 20,
+                "Xp": 500,
+                "dano": 45,
+                "nivel_min": 8,
+                "nivel_max": 10,
+                "vida_maxima": 250,
+                "raridade": "Raro",
+                "locais": [
+                    "Labirintos",
+                    "Cavernas",
+                    "Ruínas"
+                ]
+            },
+            "Harpia": {
+                "vida": 80,
+                "ataque_fisico": 18,
+                "defesa": 12,
+                "ataque_especial": 20,
+                "defesa_especial": 10,
+                "Xp": 120,
+                "dano": 15,
+                "nivel_min": 3,
+                "nivel_max": 5,
+                "vida_maxima": 80,
+                "raridade": "Incomum",
+                "locais": [
+                    "Montanhas",
+                    "Florestas",
+                    "Planaltos"
+                ]
+            },
+            "Grifo": {
+                "vida": 200,
+                "ataque_fisico": 30,
+                "defesa": 25,
+                "ataque_especial": 25,
+                "defesa_especial": 15,
+                "Xp": 350,
+                "dano": 35,
+                "nivel_min": 6,
+                "nivel_max": 9,
+                "vida_maxima": 200,
+                "raridade": "Raro",
+                "locais": [
+                    "Montanhas",
+                    "Planaltos",
+                    "Terras Proibidas"
+                ]
+            },
+            "Furioso": {
+                "vida": 150,
+                "ataque_fisico": 35,
+                "defesa": 25,
+                "ataque_especial": 15,
+                "defesa_especial": 20,
+                "Xp": 350,
+                "dano": 30,
+                "nivel_min": 5,
+                "nivel_max": 8,
+                "vida_maxima": 150,
+                "raridade": "Incomum",
+                "locais": [
+                    "Montanhas",
+                    "Cavernas"
+                ]
+            },
+            "Golem de Pedra": {
+                "vida": 300,
+                "ataque_fisico": 40,
+                "defesa": 50,
+                "ataque_especial": 10,
+                "defesa_especial": 15,
+                "Xp": 600,
+                "dano": 45,
+                "nivel_min": 7,
+                "nivel_max": 10,
+                "vida_maxima": 300,
+                "raridade": "Muito Raro",
+                "locais": [
+                    "Montanhas",
+                    "Cavernas"
+                ]
+            },
+            "Abissal": {
+                "vida": 250,
+                "ataque_fisico": 35,
+                "defesa": 25,
+                "ataque_especial": 40,
+                "defesa_especial": 30,
+                "Xp": 550,
+                "dano": 50,
+                "nivel_min": 7,
+                "nivel_max": 10,
+                "vida_maxima": 250,
+                "raridade": "Muito Raro",
+                "locais": [
+                    "Oceano",
+                    "Terras Proibidas"
+                ]
+            },
+            "Demoníaco": {
+                "vida": 180,
+                "ataque_fisico": 25,
+                "defesa": 20,
+                "ataque_especial": 35,
+                "defesa_especial": 25,
+                "Xp": 400,
+                "dano": 35,
+                "nivel_min": 6,
+                "nivel_max": 9,
+                "vida_maxima": 180,
+                "raridade": "Raro",
+                "locais": [
+                    "Cavernas",
+                    "Terras Proibidas"
+                ]
+            },
+            "Hidra de Cabeças Múltiplas": {
+                "vida": 300,
+                "ataque_fisico": 40,
+                "defesa": 30,
+                "ataque_especial": 50,
+                "defesa_especial": 35,
+                "Xp": 700,
+                "dano": 60,
+                "nivel_min": 8,
+                "nivel_max": 10,
+                "vida_maxima": 300,
+                "raridade": "Muito Raro",
+                "locais": [
+                    "Pântanos",
+                    "Cavernas"
+                ]
+            },
+            "Basilisco": {
+                "vida": 150,
+                "ataque_fisico": 20,
+                "defesa": 15,
+                "ataque_especial": 25,
+                "defesa_especial": 20,
+                "Xp": 300,
+                "dano": 30,
+                "nivel_min": 5,
+                "nivel_max": 8,
+                "vida_maxima": 150,
+                "raridade": "Raro",
+                "locais": [
+                    "Cavernas",
+                    "Florestas"
+                ]
+            },
+            "Monstro Marinho": {
+                "vida": 220,
+                "ataque_fisico": 35,
+                "defesa": 25,
+                "ataque_especial": 30,
+                "defesa_especial": 20,
+                "Xp": 450,
+                "dano": 40,
+                "nivel_min": 6,
+                "nivel_max": 9,
+                "vida_maxima": 220,
+                "raridade": "Raro",
+                "locais": [
+                    "Oceano",
+                    "Rios"
+                ]
+            },
+            "Rei Goblin": {
+                "vida": 130,
+                "ataque_fisico": 15,
+                "defesa": 10,
+                "ataque_especial": 20,
+                "defesa_especial": 15,
+                "Xp": 250,
+                "dano": 25,
+                "nivel_min": 4,
+                "nivel_max": 7,
+                "vida_maxima": 130,
+                "raridade": "Incomum",
+                "locais": [
+                    "Florestas",
+                    "Ruínas"
+                ]
+            },
+            "Gárgula de Pedra": {
+                "vida": 160,
+                "ataque_fisico": 25,
+                "defesa": 20,
+                "ataque_especial": 20,
+                "defesa_especial": 15,
+                "Xp": 300,
+                "dano": 30,
+                "nivel_min": 5,
+                "nivel_max": 8,
+                "vida_maxima": 160,
+                "raridade": "Raro",
+                "locais": [
+                    "Castelos",
+                    "Catedrais"
+                ]
+            },
+            "Fúria da Tempestade": {
+                "vida": 200,
+                "ataque_fisico": 20,
+                "defesa": 25,
+                "ataque_especial": 45,
+                "defesa_especial": 35,
+                "Xp": 550,
+                "dano": 50,
+                "nivel_min": 7,
+                "nivel_max": 10,
+                "vida_maxima": 200,
+                "raridade": "Muito Raro",
+                "locais": [
+                    "Vulcões",
+                    "Terras Desoladas"
+                ]
+            },
+            "Banshee": {
+                "vida": 120,
+                "ataque_fisico": 10,
+                "defesa": 10,
+                "ataque_especial": 35,
+                "defesa_especial": 30,
+                "Xp": 250,
+                "dano": 30,
+                "nivel_min": 4,
+                "nivel_max": 7,
+                "vida_maxima": 120,
+                "raridade": "Incomum",
+                "locais": [
+                    "Cemitérios",
+                    "Ruínas"
+                ]
+            },
+            "Sentinela de Ferro": {
+                "vida": 220,
+                "ataque_fisico": 40,
+                "defesa": 35,
+                "ataque_especial": 15,
+                "defesa_especial": 20,
+                "Xp": 500,
+                "dano": 45,
+                "nivel_min": 6,
+                "nivel_max": 9,
+                "vida_maxima": 220,
+                "raridade": "Raro",
+                "locais": [
+                    "Fortalezas",
+                    "Castelos"
+                ]
+            },
+            "Vampiro Ancião": {
+                "vida": 200,
+                "ataque_fisico": 30,
+                "defesa": 20,
+                "ataque_especial": 40,
+                "defesa_especial": 30,
+                "Xp": 600,
+                "dano": 50,
+                "nivel_min": 8,
+                "nivel_max": 10,
+                "vida_maxima": 200,
+                "raridade": "Muito Raro",
+                "locais": [
+                    "Ruínas",
+                    "Cavernas"
+                ]
+            },
+            "Lich": {
+                "vida": 250,
+                "ataque_fisico": 20,
+                "defesa": 25,
+                "ataque_especial": 50,
+                "defesa_especial": 35,
+                "Xp": 700,
+                "dano": 60,
+                "nivel_min": 8,
+                "nivel_max": 10,
+                "vida_maxima": 250,
+                "raridade": "Muito Raro",
+                "locais": [
+                    "Cavernas",
+                    "Ruínas"
+                ]
+            },
+            "Golem de Gelo": {
+                "vida": 280,
+                "ataque_fisico": 35,
+                "defesa": 40,
+                "ataque_especial": 20,
+                "defesa_especial": 30,
+                "Xp": 600,
+                "dano": 50,
+                "nivel_min": 8,
+                "nivel_max": 10,
+                "vida_maxima": 280,
+                "raridade": "Muito Raro",
+                "locais": [
+                    "Terras Geladas",
+                    "Montanhas"
+                ]
+            },
+            "Quimera de Fogo": {
+                "vida": 200,
+                "ataque_fisico": 30,
+                "defesa": 20,
+                "ataque_especial": 35,
+                "defesa_especial": 25,
+                "Xp": 450,
+                "dano": 40,
+                "nivel_min": 6,
+                "nivel_max": 9,
+                "vida_maxima": 200,
+                "raridade": "Raro",
+                "locais": [
+                    "Vulcões",
+                    "Planícies"
+                ]
+            },
+            "Golem de Areia": {
+                "vida": 200,
+                "ataque_fisico": 25,
+                "defesa": 30,
+                "ataque_especial": 20,
+                "defesa_especial": 20,
+                "Xp": 400,
+                "dano": 35,
+                "nivel_min": 6,
+                "nivel_max": 9,
+                "vida_maxima": 200,
+                "raridade": "Raro",
+                "locais": [
+                    "Desertos",
+                    "Ruínas"
+                ]
+            },
+            "Aranha Gigante": {
+                "vida": 150,
+                "ataque_fisico": 25,
+                "defesa": 20,
+                "ataque_especial": 20,
+                "defesa_especial": 15,
+                "Xp": 300,
+                "dano": 30,
+                "nivel_min": 5,
+                "nivel_max": 8,
+                "vida_maxima": 150,
+                "raridade": "Incomum",
+                "locais": [
+                    "Florestas",
+                    "Cavernas"
+                ]
+            },
+            "Serpente Marinha": {
+                "vida": 180,
+                "ataque_fisico": 30,
+                "defesa": 20,
+                "ataque_especial": 25,
+                "defesa_especial": 20,
+                "Xp": 350,
+                "dano": 35,
+                "nivel_min": 6,
+                "nivel_max": 9,
+                "vida_maxima": 180,
+                "raridade": "Raro",
+                "locais": [
+                    "Oceano",
+                    "Rios"
+                ]
+            },
+            "Gárgula de Pedra": {
+                "vida": 200,
+                "ataque_fisico": 25,
+                "defesa": 20,
+                "ataque_especial": 25,
+                "defesa_especial": 20,
+                "Xp": 400,
+                "dano": 30,
+                "nivel_min": 7,
+                "nivel_max": 10,
+                "vida_maxima": 200,
+                "raridade": "Raro",
+                "locais": [
+                    "Castelos",
+                    "Ruínas"
+                ]
+            },
+            "Cavaleiro Caído": {
+                "vida": 220,
+                "ataque_fisico": 35,
+                "defesa": 30,
+                "ataque_especial": 15,
+                "defesa_especial": 20,
+                "Xp": 500,
+                "dano": 40,
+                "nivel_min": 7,
+                "nivel_max": 10,
+                "vida_maxima": 220,
+                "raridade": "Raro",
+                "locais": [
+                    "Catedrais",
+                    "Campos de Batalha"
+                ]
+            },
+            "Múmia": {
+                "vida": 180,
+                "ataque_fisico": 25,
+                "defesa": 20,
+                "ataque_especial": 30,
+                "defesa_especial": 25,
+                "Xp": 400,
+                "dano": 35,
+                "nivel_min": 6,
+                "nivel_max": 9,
+                "vida_maxima": 180,
+                "raridade": "Raro",
+                "locais": [
+                    "Cemitérios",
+                    "Ruínas"
+                ]
+            },
+            "Guardiã do Tempo": {
+                "vida": 220,
+                "ataque_fisico": 30,
+                "defesa": 25,
+                "ataque_especial": 40,
+                "defesa_especial": 30,
+                "Xp": 500,
+                "dano": 45,
+                "nivel_min": 8,
+                "nivel_max": 10,
+                "vida_maxima": 220,
+                "raridade": "Muito Raro",
+                "locais": [
+                    "Templos",
+                    "Catedrais"
+                ]
+            },
+            "Fúria do Vento": {
+                "vida": 200,
+                "ataque_fisico": 25,
+                "defesa": 20,
+                "ataque_especial": 50,
+                "defesa_especial": 35,
+                "Xp": 500,
+                "dano": 55,
+                "nivel_min": 8,
+                "nivel_max": 10,
+                "vida_maxima": 200,
+                "raridade": "Muito Raro",
+                "locais": [
+                    "Vulcões",
+                    "Terras Desoladas"
+                ]
+            },
+            "Golem de Lava": {
+                "vida": 300,
+                "ataque_fisico": 40,
+                "defesa": 35,
+                "ataque_especial": 25,
+                "defesa_especial": 25,
+                "Xp": 600,
+                "dano": 60,
+                "nivel_min": 8,
+                "nivel_max": 10,
+                "vida_maxima": 300,
+                "raridade": "Muito Raro",
+                "locais": [
+                    "Vulcões",
+                    "Planícies"
+                ]
+            },
+            "Dragão do Gelo": {
+                "vida": 250,
+                "ataque_fisico": 35,
+                "defesa": 30,
+                "ataque_especial": 40,
+                "defesa_especial": 35,
+                "Xp": 700,
+                "dano": 60,
+                "nivel_min": 9,
+                "nivel_max": 10,
+                "vida_maxima": 250,
+                "raridade": "Muito Raro",
+                "locais": [
+                    "Terras Geladas",
+                    "Montanhas"
+                ]
+            },
+            "Titã": {
+                "vida": 350,
+                "ataque_fisico": 50,
+                "defesa": 40,
+                "ataque_especial": 30,
+                "defesa_especial": 35,
+                "Xp": 800,
+                "dano": 70,
+                "nivel_min": 10,
+                "nivel_max": 10,
+                "vida_maxima": 350,
+                "raridade": "Épico",
+                "locais": [
+                    "Montanhas",
+                    "Terras Desoladas"
+                ]
+            },
+            "Cavaleiro das Trevas": {
+                "vida": 300,
+                "ataque_fisico": 40,
+                "defesa": 35,
+                "ataque_especial": 30,
+                "defesa_especial": 30,
+                "Xp": 800,
+                "dano": 70,
+                "nivel_min": 10,
+                "nivel_max": 10,
+                "vida_maxima": 300,
+                "raridade": "Épico",
+                "locais": [
+                    "Cemitérios",
+                    "Catedrais"
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,888 @@
+{
+    "Itens": {
+        "Espada de Ferro": {
+            "tipo": "Arma",
+            "descrição": "Uma espada básica feita de ferro. Boa para iniciantes.",
+            "dano": 10,
+            "raridade": "Comum"
+        },
+        "Armadura de Couro": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura leve de couro, oferece proteção básica.",
+            "defesa": 5,
+            "raridade": "Comum"
+        },
+        "Elmo de Ferro": {
+            "tipo": "Armadura",
+            "descrição": "Um elmo de ferro que aumenta a proteção da cabeça.",
+            "defesa": 3,
+            "raridade": "Comum"
+        },
+        "Anel de Força": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que aumenta a força do portador.",
+            "força": 5,
+            "raridade": "Raro"
+        },
+        "Poção de Cura": {
+            "tipo": "Consumível",
+            "descrição": "Restaura uma quantidade pequena de saúde.",
+            "cura": 50,
+            "raridade": "Comum"
+        },
+        "Capa de Invisibilidade": {
+            "tipo": "Acessório",
+            "descrição": "Uma capa que torna o usuário invisível por um curto período.",
+            "duração_invisibilidade": 30,
+            "raridade": "Raro"
+        },
+        "Arco de Longo Alcance": {
+            "tipo": "Arma",
+            "descrição": "Um arco que permite ataques a longa distância com precisão.",
+            "dano": 15,
+            "raridade": "Raro"
+        },
+        "Poção de Velocidade": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta a velocidade do usuário por um tempo limitado.",
+            "aumento_velocidade": 20,
+            "duração": 60,
+            "raridade": "Raro"
+        },
+        "Escudo de Aço": {
+            "tipo": "Armadura",
+            "descrição": "Um escudo robusto feito de aço, oferece grande proteção.",
+            "defesa": 10,
+            "raridade": "Raro"
+        },
+        "Botas de Agilidade": {
+            "tipo": "Armadura",
+            "descrição": "Botas que aumentam a agilidade e a velocidade do usuário.",
+            "agilidade": 7,
+            "raridade": "Raro"
+        },
+        "Elixir de Magia": {
+            "tipo": "Consumível",
+            "descrição": "Restaura a mana do usuário e aumenta seu poder mágico.",
+            "restaura_mana": 100,
+            "aumento_poder_magico": 10,
+            "raridade": "Raro"
+        },
+        "Coração de Dragão": {
+            "tipo": "Acessório",
+            "descrição": "Um poderoso item que aumenta a força e a resistência.",
+            "força": 10,
+            "resistência": 10,
+            "raridade": "Muito Raro"
+        },
+        "Espada de Gelo": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que causa dano de gelo e pode congelar inimigos.",
+            "dano": 20,
+            "efeito_especial": "Congelamento",
+            "raridade": "Muito Raro"
+        },
+        "Armadura de Dragão": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura feita com escamas de dragão, oferece excelente proteção.",
+            "defesa": 20,
+            "raridade": "Muito Raro"
+        },
+        "Amuleto da Vida": {
+            "tipo": "Acessório",
+            "descrição": "Um amuleto que aumenta a vitalidade e a regeneração de saúde.",
+            "vitalidade": 15,
+            "regeneração_saúde": 5,
+            "raridade": "Muito Raro"
+        },
+        "Poção de Invulnerabilidade": {
+            "tipo": "Consumível",
+            "descrição": "Concede invulnerabilidade temporária ao usuário.",
+            "duração_invulnerabilidade": 10,
+            "raridade": "Muito Raro"
+        },
+        "Lança de Relâmpago": {
+            "tipo": "Arma",
+            "descrição": "Uma lança que pode invocar relâmpagos para atacar os inimigos.",
+            "dano": 25,
+            "efeito_especial": "Relâmpago",
+            "raridade": "Muito Raro"
+        },
+        "Capa de Fogo": {
+            "tipo": "Acessório",
+            "descrição": "Uma capa que concede resistência ao fogo e aumenta o ataque de fogo.",
+            "resistência_fogo": 15,
+            "aumento_ataque_fogo": 10,
+            "raridade": "Raro"
+        },
+        "Poção de Força": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta temporariamente a força do usuário.",
+            "aumento_força": 20,
+            "duração": 120,
+            "raridade": "Raro"
+        },
+        "Elmo de Magia": {
+            "tipo": "Armadura",
+            "descrição": "Um elmo que aumenta a potência mágica do usuário.",
+            "aumento_poder_magico": 10,
+            "raridade": "Raro"
+        },
+        "Armadura de Espinhos": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura que causa dano aos inimigos que atacam o portador.",
+            "defesa": 15,
+            "dano_espinhos": 5,
+            "raridade": "Raro"
+        },
+        "Poção de Cura Rápida": {
+            "tipo": "Consumível",
+            "descrição": "Restaura uma quantidade moderada de saúde rapidamente.",
+            "cura": 150,
+            "raridade": "Raro"
+        },
+        "Bracelete de Proteção": {
+            "tipo": "Acessório",
+            "descrição": "Um bracelete que oferece proteção adicional contra ataques.",
+            "defesa": 5,
+            "raridade": "Raro"
+        },
+        "Espada de Luz": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que emite luz sagrada, eficaz contra inimigos das trevas.",
+            "dano": 18,
+            "efeito_especial": "Luz Sagrada",
+            "raridade": "Raro"
+        },
+        "Poção de Invisibilidade": {
+            "tipo": "Consumível",
+            "descrição": "Torna o usuário invisível por um curto período.",
+            "duração_invisibilidade": 60,
+            "raridade": "Raro"
+        },
+        "Armadura de Sombras": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura que aumenta a evasão e oferece proteção contra ataques físicos.",
+            "defesa": 12,
+            "evasão": 15,
+            "raridade": "Raro"
+        },
+        "Anel de Velocidade": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que aumenta a velocidade de movimento do portador.",
+            "velocidade": 10,
+            "raridade": "Raro"
+        },
+        "Espada de Sangue": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que absorve parte da saúde dos inimigos para curar o portador.",
+            "dano": 22,
+            "efeito_especial": "Absorção de Saúde",
+            "raridade": "Muito Raro"
+        },
+        "Coração de Demônio": {
+            "tipo": "Acessório",
+            "descrição": "Um item que concede grande poder, mas pode ser perigoso de usar.",
+            "força": 20,
+            "resistência": 10,
+            "raridade": "Muito Raro"
+        },
+        "Poção de Magia de Gelo": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta o poder dos feitiços de gelo do usuário.",
+            "aumento_poder_gelo": 15,
+            "raridade": "Raro"
+        },
+        "Elmo do Guerreiro": {
+            "tipo": "Armadura",
+            "descrição": "Um elmo que aumenta a força e a defesa em batalha.",
+            "força": 8,
+            "defesa": 5,
+            "raridade": "Raro"
+        },
+        "Poção de Cura Maior": {
+            "tipo": "Consumível",
+            "descrição": "Restaura uma grande quantidade de saúde.",
+            "cura": 300,
+            "raridade": "Raro"
+        },
+        "Armadura de Fogo": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura que oferece grande proteção contra ataques de fogo.",
+            "defesa": 20,
+            "resistência_fogo": 25,
+            "raridade": "Muito Raro"
+        },
+        "Espada de Vento": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que causa dano e pode criar rajadas de vento.",
+            "dano": 20,
+            "efeito_especial": "Rajadas de Vento",
+            "raridade": "Muito Raro"
+        },
+        "Poção de Invocação": {
+            "tipo": "Consumível",
+            "descrição": "Invoca um aliado temporário para ajudar em combate.",
+            "duração_invocação": 60,
+            "raridade": "Muito Raro"
+        },
+        "Capa de Proteção": {
+            "tipo": "Acessório",
+            "descrição": "Uma capa que aumenta a proteção geral do usuário.",
+            "defesa": 10,
+            "raridade": "Raro"
+        },
+        "Espada da Justiça": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que causa dano extra a inimigos do mal.",
+            "dano": 25,
+            "efeito_especial": "Dano Extra Contra Inimigos do Mal",
+            "raridade": "Muito Raro"
+        },
+        "Machado de Batalha": {
+            "tipo": "Arma",
+            "descrição": "Um grande machado que causa dano significativo em combate.",
+            "dano": 30,
+            "raridade": "Raro"
+        },
+        "Armadura de Placas": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura pesada que oferece excelente proteção.",
+            "defesa": 25,
+            "raridade": "Raro"
+        },
+        "Bracelete de Força": {
+            "tipo": "Acessório",
+            "descrição": "Aumenta a força física do usuário.",
+            "força": 12,
+            "raridade": "Raro"
+        },
+        "Poção de Mana": {
+            "tipo": "Consumível",
+            "descrição": "Restaura uma quantidade moderada de mana.",
+            "restaura_mana": 75,
+            "raridade": "Comum"
+        },
+        "Arco de Gelo": {
+            "tipo": "Arma",
+            "descrição": "Um arco que dispara flechas congelantes.",
+            "dano": 18,
+            "efeito_especial": "Congelamento",
+            "raridade": "Raro"
+        },
+        "Escudo Mágico": {
+            "tipo": "Armadura",
+            "descrição": "Um escudo encantado que oferece proteção mágica adicional.",
+            "defesa": 15,
+            "proteção_mágica": 10,
+            "raridade": "Raro"
+        },
+        "Poção de Agilidade": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta a agilidade do usuário por um período.",
+            "aumento_agilidade": 20,
+            "duração": 60,
+            "raridade": "Raro"
+        },
+        "Capa de Sombra": {
+            "tipo": "Acessório",
+            "descrição": "Uma capa que aumenta a evasão e a furtividade.",
+            "evasão": 10,
+            "furtividade": 15,
+            "raridade": "Raro"
+        },
+        "Lança de Gelo": {
+            "tipo": "Arma",
+            "descrição": "Uma lança que causa dano de gelo e pode congelar inimigos.",
+            "dano": 25,
+            "efeito_especial": "Congelamento",
+            "raridade": "Muito Raro"
+        },
+        "Elmo de Proteção": {
+            "tipo": "Armadura",
+            "descrição": "Um elmo que aumenta a proteção geral do usuário.",
+            "defesa": 7,
+            "raridade": "Raro"
+        },
+        "Poção de Força Bruta": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta drasticamente a força do usuário por um tempo limitado.",
+            "aumento_força": 50,
+            "duração": 120,
+            "raridade": "Muito Raro"
+        },
+        "Armadura de Gelo": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura que oferece proteção contra ataques de gelo e aumenta o ataque de gelo.",
+            "defesa": 20,
+            "resistência_gelo": 25,
+            "raridade": "Muito Raro"
+        },
+        "Anel de Regeneração": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que regenera lentamente a saúde do usuário.",
+            "regeneração_saúde": 5,
+            "raridade": "Raro"
+        },
+        "Espada de Fogo": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que causa dano de fogo e pode queimar inimigos.",
+            "dano": 20,
+            "efeito_especial": "Queima",
+            "raridade": "Raro"
+        },
+        "Poção de Reflexos": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta os reflexos e a capacidade de esquiva do usuário.",
+            "aumento_reflexos": 15,
+            "duração": 60,
+            "raridade": "Raro"
+        },
+        "Bracelete de Agilidade": {
+            "tipo": "Acessório",
+            "descrição": "Um bracelete que aumenta a agilidade e a velocidade do usuário.",
+            "agilidade": 10,
+            "velocidade": 5,
+            "raridade": "Raro"
+        },
+        "Espada de Trevas": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que absorve a vida dos inimigos e aumenta o poder do usuário.",
+            "dano": 25,
+            "efeito_especial": "Absorção de Vida",
+            "raridade": "Muito Raro"
+        },
+        "Poção de Invulnerabilidade Menor": {
+            "tipo": "Consumível",
+            "descrição": "Concede invulnerabilidade temporária por um curto período.",
+            "duração_invulnerabilidade": 20,
+            "raridade": "Raro"
+        },
+        "Escudo de Fogo": {
+            "tipo": "Armadura",
+            "descrição": "Um escudo que concede proteção contra ataques de fogo.",
+            "defesa": 12,
+            "resistência_fogo": 20,
+            "raridade": "Raro"
+        },
+        "Elmo de Agilidade": {
+            "tipo": "Armadura",
+            "descrição": "Um elmo que aumenta a agilidade e a velocidade do usuário.",
+            "agilidade": 8,
+            "velocidade": 5,
+            "raridade": "Raro"
+        },
+        "Poção de Resistência": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta a resistência do usuário a danos por um período.",
+            "aumento_resistência": 20,
+            "duração": 120,
+            "raridade": "Raro"
+        },
+        "Armadura de Relâmpago": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura que oferece proteção contra ataques elétricos e aumenta o poder de relâmpago.",
+            "defesa": 18,
+            "resistência_relâmpago": 20,
+            "raridade": "Raro"
+        },
+        "Anel de Fogo": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que aumenta o poder dos ataques de fogo.",
+            "aumento_ataque_fogo": 15,
+            "raridade": "Raro"
+        },
+        "Poção de Cura Total": {
+            "tipo": "Consumível",
+            "descrição": "Restaura completamente a saúde do usuário.",
+            "cura": 500,
+            "raridade": "Muito Raro"
+        },
+        "Espada do Dragão": {
+            "tipo": "Arma",
+            "descrição": "Uma espada lendária que causa dano de dragão e é eficaz contra criaturas mágicas.",
+            "dano": 35,
+            "efeito_especial": "Dano de Dragão",
+            "raridade": "Muito Raro"
+        },
+        "Capa de Magia": {
+            "tipo": "Acessório",
+            "descrição": "Uma capa que aumenta a potência mágica do usuário e reduz o custo de mana.",
+            "aumento_poder_magico": 20,
+            "redução_custo_mana": 15,
+            "raridade": "Muito Raro"
+        },
+        "Poção de Energia Mágica": {
+            "tipo": "Consumível",
+            "descrição": "Restaura completamente a mana do usuário e aumenta temporariamente o poder mágico.",
+            "restaura_mana": 200,
+            "aumento_poder_magico": 25,
+            "raridade": "Muito Raro"
+        },
+        "Armadura de Trevas": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura que oferece grande proteção contra ataques de trevas e aumenta o poder das trevas.",
+            "defesa": 25,
+            "resistência_trevas": 30,
+            "raridade": "Muito Raro"
+        },
+        "Anel de Tempo": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que permite ao usuário manipular o tempo por curtos períodos.",
+            "manipulação_tempo": 30,
+            "raridade": "Muito Raro"
+        },
+        "Poção de Ataque Poderoso": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta significativamente o dano causado pelos ataques.",
+            "aumento_dano": 50,
+            "duração": 120,
+            "raridade": "Muito Raro"
+        },
+        "Espada do Vento": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que pode criar rajadas de vento e causar dano adicional.",
+            "dano": 22,
+            "efeito_especial": "Rajadas de Vento",
+            "raridade": "Muito Raro"
+        },
+        "Poção de Invisibilidade": {
+            "tipo": "Consumível",
+            "descrição": "Torna o usuário invisível por um período.",
+            "duração_invisibilidade": 60,
+            "raridade": "Muito Raro"
+        },
+        "Elmo de Fogo": {
+            "tipo": "Armadura",
+            "descrição": "Um elmo que protege contra ataques de fogo e aumenta o poder de fogo do usuário.",
+            "defesa": 10,
+            "resistência_fogo": 15,
+            "aumento_ataque_fogo": 10,
+            "raridade": "Raro"
+        },
+        "Poção de Velocidade": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta a velocidade do usuário para se movimentar rapidamente.",
+            "aumento_velocidade": 30,
+            "duração": 60,
+            "raridade": "Raro"
+        },
+        "Armadura do Templo": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura sagrada que oferece proteção adicional contra criaturas malignas.",
+            "defesa": 22,
+            "raridade": "Raro"
+        },
+        "Poção de Vigor": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta a resistência e força do usuário por um período.",
+            "aumento_resistência": 15,
+            "aumento_força": 10,
+            "duração": 120,
+            "raridade": "Raro"
+        },
+        "Bracelete da Sorte": {
+            "tipo": "Acessório",
+            "descrição": "Um bracelete que aumenta a sorte e a chance de encontrar itens raros.",
+            "sorte": 15,
+            "raridade": "Raro"
+        },
+        "Espada do Cavaleiro": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que concede poder adicional contra inimigos poderosos.",
+            "dano": 28,
+            "efeito_especial": "Dano Adicional Contra Inimigos Poderosos",
+            "raridade": "Muito Raro"
+        },
+        "Poção de Agilidade Extrema": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta drasticamente a agilidade e os reflexos do usuário por um tempo limitado.",
+            "aumento_agilidade": 40,
+            "aumento_reflexos": 25,
+            "duração": 60,
+            "raridade": "Muito Raro"
+        },
+        "Armadura do Guardião": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura que oferece proteção extra e aumenta a defesa do usuário.",
+            "defesa": 30,
+            "raridade": "Muito Raro"
+        },
+        "Poção de Cura Menor": {
+            "tipo": "Consumível",
+            "descrição": "Restaura uma pequena quantidade de saúde.",
+            "cura": 50,
+            "raridade": "Comum"
+        },
+        "Capa de Velocidade": {
+            "tipo": "Acessório",
+            "descrição": "Uma capa que aumenta a velocidade de movimento do usuário.",
+            "velocidade": 20,
+            "raridade": "Raro"
+        },
+        "Espada da Luz": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que brilha com a luz do dia e causa dano extra a criaturas das trevas.",
+            "dano": 25,
+            "efeito_especial": "Dano Extra Contra Criaturas das Trevas",
+            "raridade": "Muito Raro"
+        },
+        "Poção de Proteção Contra Magia": {
+            "tipo": "Consumível",
+            "descrição": "Concede proteção temporária contra ataques mágicos.",
+            "proteção_mágica": 25,
+            "duração": 120,
+            "raridade": "Raro"
+        },
+        "Armadura de Ferro": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura básica feita de ferro, oferecendo proteção razoável.",
+            "defesa": 15,
+            "raridade": "Comum"
+        },
+        "Anel de Cura": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que restaura lentamente a saúde do usuário ao longo do tempo.",
+            "regeneração_saúde": 3,
+            "raridade": "Raro"
+        },
+        "Poção de Invocação Maior": {
+            "tipo": "Consumível",
+            "descrição": "Invoca um aliado poderoso para ajudar em combate.",
+            "duração_invocação": 120,
+            "raridade": "Muito Raro"
+        },
+        "Espada da Morte": {
+            "tipo": "Arma",
+            "descrição": "Uma espada sombria que causa grande dano e pode enfraquecer os inimigos.",
+            "dano": 30,
+            "efeito_especial": "Enfraquecimento",
+            "raridade": "Muito Raro"
+        },
+        "Poção de Invisibilidade Maior": {
+            "tipo": "Consumível",
+            "descrição": "Torna o usuário completamente invisível por um período mais longo.",
+            "duração_invisibilidade": 120,
+            "raridade": "Muito Raro"
+        },
+        "Armadura de Vento": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura leve que aumenta a agilidade e oferece proteção contra ataques de vento.",
+            "defesa": 18,
+            "resistência_vento": 15,
+            "raridade": "Raro"
+        },
+        "Anel da Teleportação": {
+            "tipo": "Acessório",
+            "descrição": "Permite ao usuário se teletransportar para um local conhecido.",
+            "duração_teleportação": "Instantânea",
+            "raridade": "Muito Raro"
+        },
+        "Poção de Defesa": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta temporariamente a defesa do usuário.",
+            "aumento_defesa": 25,
+            "duração": 120,
+            "raridade": "Raro"
+        },
+        "Armadura de Dragão": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura feita das escamas de um dragão, oferecendo proteção suprema.",
+            "defesa": 35,
+            "resistência_fogo": 30,
+            "raridade": "Muito Raro"
+        },
+        "Espada do Lendário": {
+            "tipo": "Arma",
+            "descrição": "Uma espada lendária que causa dano imenso e é eficaz contra qualquer inimigo.",
+            "dano": 40,
+            "efeito_especial": "Dano Imenso",
+            "raridade": "Muito Raro"
+        },
+        "Poção de Furtividade": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta a furtividade e permite que o usuário se mova sem ser detectado.",
+            "aumento_furtividade": 20,
+            "duração": 60,
+            "raridade": "Raro"
+        },
+        "Capa do Viajante": {
+            "tipo": "Acessório",
+            "descrição": "Uma capa que aumenta a resistência a condições climáticas adversas e facilita a movimentação.",
+            "resistência_climática": 25,
+            "velocidade": 10,
+            "raridade": "Raro"
+        },
+        "Poção de Inteligência": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta a inteligência do usuário e a eficácia de suas habilidades mágicas.",
+            "aumento_inteligência": 15,
+            "duração": 120,
+            "raridade": "Raro"
+        },
+        "Espada de Luz Solar": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que brilha com a luz do sol e causa dano extra a criaturas das trevas.",
+            "dano": 28,
+            "efeito_especial": "Dano Extra Contra Criaturas das Trevas",
+            "raridade": "Muito Raro"
+        },
+        "Poção de Magia Negra": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta temporariamente o poder das habilidades de magia negra do usuário.",
+            "aumento_poder_magia_negra": 20,
+            "duração": 60,
+            "raridade": "Raro"
+        },
+        "Armadura do Cavaleiro": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura resistente que oferece excelente proteção e bônus de defesa.",
+            "defesa": 30,
+            "raridade": "Muito Raro"
+        },
+        "Anel da Resistência": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que aumenta a resistência do usuário a todos os tipos de danos.",
+            "resistência_total": 20,
+            "raridade": "Raro"
+        },
+        "Poção de Grande Cura": {
+            "tipo": "Consumível",
+            "descrição": "Restaura uma grande quantidade de saúde.",
+            "cura": 300,
+            "raridade": "Muito Raro"
+        },
+        "Espada de Veneno": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que envenena os inimigos e causa dano ao longo do tempo.",
+            "dano": 22,
+            "efeito_especial": "Envenenamento",
+            "raridade": "Raro"
+        },
+        "Poção de Fortalecimento": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta a força e a defesa do usuário.",
+            "aumento_força": 20,
+            "aumento_defesa": 15,
+            "duração": 120,
+            "raridade": "Raro"
+        },
+        "Armadura de Cristal": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura feita de cristal que oferece proteção mágica e física.",
+            "defesa": 22,
+            "resistência_magica": 18,
+            "raridade": "Muito Raro"
+        },
+        "Anel de Magia": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que aumenta o poder mágico do usuário e reduz o custo das habilidades.",
+            "aumento_poder_magico": 10,
+            "redução_custo_habilidades": 10,
+            "raridade": "Raro"
+        },
+        "Poção de Invisibilidade Menor": {
+            "tipo": "Consumível",
+            "descrição": "Torna o usuário parcialmente invisível por um período.",
+            "duração_invisibilidade": 30,
+            "raridade": "Raro"
+        },
+        "Espada de Sangue": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que drena a vida dos inimigos e aumenta o poder do usuário.",
+            "dano": 25,
+            "efeito_especial": "Drenagem de Vida",
+            "raridade": "Muito Raro"
+        },
+        "Poção de Habilidade": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta temporariamente as habilidades e a precisão do usuário.",
+            "aumento_habilidades": 15,
+            "aumento_precisão": 10,
+            "duração": 60,
+            "raridade": "Raro"
+        },
+        "Armadura de Fogo": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura que oferece proteção contra ataques de fogo e aumenta o ataque de fogo.",
+            "defesa": 20,
+            "resistência_fogo": 20,
+            "raridade": "Raro"
+        },
+        "Anel do Guerreiro": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que aumenta a força e a habilidade em combate corpo a corpo.",
+            "força": 15,
+            "aumento_ataque_físico": 10,
+            "raridade": "Raro"
+        },
+        "Poção de Aumenta Magia": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta temporariamente o poder das habilidades mágicas do usuário.",
+            "aumento_poder_magia": 25,
+            "duração": 60,
+            "raridade": "Raro"
+        },
+        "Espada do Vórtice": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que pode criar vórtices de energia para atacar múltiplos inimigos.",
+            "dano": 30,
+            "efeito_especial": "Vórtice de Energia",
+            "raridade": "Muito Raro"
+        },
+        "Poção de Vitalidade": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta a vitalidade e a saúde máxima do usuário por um período.",
+            "aumento_vitalidade": 25,
+            "aumento_vida_maxima": 50,
+            "duração": 120,
+            "raridade": "Raro"
+        },
+        "Armadura de Relâmpago": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura que oferece proteção contra ataques elétricos e aumenta o ataque de relâmpago.",
+            "defesa": 20,
+            "resistência_relâmpago": 25,
+            "raridade": "Raro"
+        },
+        "Anel da Furtividade": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que aumenta a furtividade e a capacidade de se esconder dos inimigos.",
+            "furtividade": 20,
+            "raridade": "Raro"
+        },
+        "Poção de Super Cura": {
+            "tipo": "Consumível",
+            "descrição": "Restaura completamente a saúde do usuário e remove todas as condições adversas.",
+            "cura": 600,
+            "raridade": "Muito Raro"
+        },
+        "Espada do Caos": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que causa dano caótico e pode confundir os inimigos.",
+            "dano": 35,
+            "efeito_especial": "Confusão",
+            "raridade": "Muito Raro"
+        },
+        "Armadura de Escamas": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura feita de escamas de dragão que oferece grande proteção e resistência.",
+            "defesa": 28,
+            "resistência_fogo": 20,
+            "raridade": "Muito Raro"
+        },
+        "Anel do Guardião": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que aumenta a defesa e protege contra danos críticos.",
+            "defesa": 15,
+            "proteção_critica": 10,
+            "raridade": "Muito Raro"
+        },
+        "Poção de Cura Total": {
+            "tipo": "Consumível",
+            "descrição": "Restaura completamente a saúde do usuário e fornece uma regeneração de vida adicional.",
+            "cura": 500,
+            "regeneração_saúde": 5,
+            "raridade": "Muito Raro"
+        },
+        "Espada da Tempestade": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que invoca tempestades e causa dano de eletricidade.",
+            "dano": 32,
+            "efeito_especial": "Tempestade",
+            "raridade": "Muito Raro"
+        },
+        "Poção de Força Extrema": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta drasticamente a força física e o dano do usuário por um período.",
+            "aumento_força": 40,
+            "duração": 120,
+            "raridade": "Muito Raro"
+        },
+        "Armadura do Sábio": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura que aumenta a inteligência e a resistência mágica do usuário.",
+            "defesa": 20,
+            "aumento_inteligência": 10,
+            "resistência_mágica": 20,
+            "raridade": "Muito Raro"
+        },
+        "Anel de Teletransporte": {
+            "tipo": "Acessório",
+            "descrição": "Permite ao usuário se teletransportar para um local específico.",
+            "duração_teletransporte": "Instantânea",
+            "raridade": "Muito Raro"
+        },
+        "Poção de Reflexos Extremos": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta a velocidade de reação e a capacidade de esquiva do usuário.",
+            "aumento_reflexos": 30,
+            "duração": 60,
+            "raridade": "Muito Raro"
+        },
+        "Espada da Aurora": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que emite luz e causa dano radiante aos inimigos.",
+            "dano": 30,
+            "efeito_especial": "Dano Radiante",
+            "raridade": "Muito Raro"
+        },
+        "Poção de Defesa Extrema": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta a defesa do usuário de forma significativa e o protege contra danos críticos.",
+            "aumento_defesa": 40,
+            "duração": 120,
+            "raridade": "Muito Raro"
+        },
+        "Armadura de Fogo": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura que oferece proteção contra fogo e aumenta a resistência ao calor.",
+            "defesa": 22,
+            "resistência_fogo": 25,
+            "raridade": "Muito Raro"
+        },
+        "Anel da Tempestade": {
+            "tipo": "Acessório",
+            "descrição": "Um anel que aumenta o poder dos ataques elétricos e fornece resistência ao choque.",
+            "aumento_ataque_choque": 15,
+            "resistência_choque": 20,
+            "raridade": "Muito Raro"
+        },
+        "Poção de Recuperação Rápida": {
+            "tipo": "Consumível",
+            "descrição": "Restaura rapidamente uma grande quantidade de saúde e reduz o tempo de recarga das habilidades.",
+            "cura": 300,
+            "redução_tempo_recarga": 20,
+            "raridade": "Muito Raro"
+        },
+        "Espada de Gelo": {
+            "tipo": "Arma",
+            "descrição": "Uma espada que causa dano de gelo e pode congelar os inimigos.",
+            "dano": 27,
+            "efeito_especial": "Congelamento",
+            "raridade": "Muito Raro"
+        },
+        "Poção de Agilidade Extrema": {
+            "tipo": "Consumível",
+            "descrição": "Aumenta drasticamente a agilidade e a velocidade do usuário.",
+            "aumento_agilidade": 35,
+            "aumento_velocidade": 25,
+            "duração": 60,
+            "raridade": "Muito Raro"
+        },
+        "Armadura do Valor": {
+            "tipo": "Armadura",
+            "descrição": "Uma armadura que confere grande resistência e força ao usuário.",
+            "defesa": 28,
+            "aumento_força": 10,
+            "raridade": "Muito Raro"
+        },
+        "Anel da Magia Negra": {
+            "tipo": "Acessório",
+            "descrição": "Aumenta o poder das habilidades de magia negra e a resistência a ataques mágicos.",
+            "aumento_poder_magia_negra": 20,
+            "resistência_magica": 15,
+            "raridade": "Muito Raro"
+        }
+    }
+}

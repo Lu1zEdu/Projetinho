@@ -1,0 +1,1032 @@
+[
+    {
+        "Ambientes": {
+            "Floresta Encantada": {
+                "dificuldade": "Moderada",
+                "características": {
+                    "clima": "Ameno",
+                    "vegetação": "Densa",
+                    "fauna": "Diversa",
+                    "pontos_de_interesse": [
+                        "Árvore Antiga",
+                        "Lago Secreto"
+                    ],
+                    "perigos": [
+                        "Animais Selvagens",
+                        "Trilhas Enganosas"
+                    ]
+                },
+                "recursos": [
+                    "Ervas Medicinais",
+                    "Frutas Comestíveis"
+                ],
+                "riscos": [
+                    "Perda de Rumo",
+                    "Envenenamento"
+                ],
+                "exploração": "Moderada",
+                "nivel_min": 2,
+                "nivel_max": 6
+            },
+            "Montanhas Nebulosas": {
+                "dificuldade": "Difícil",
+                "características": {
+                    "clima": "Frio e Nublado",
+                    "vegetação": "Escassa",
+                    "fauna": "Rara",
+                    "pontos_de_interesse": [
+                        "Cume do Pico",
+                        "Cavernas Geladas"
+                    ],
+                    "perigos": [
+                        "Deslizamentos de Terra",
+                        "Temperaturas Extremas"
+                    ]
+                },
+                "recursos": [
+                    "Minérios",
+                    "Cristais"
+                ],
+                "riscos": [
+                    "Hipotermia",
+                    "Acidente nas Rochas"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 5,
+                "nivel_max": 9
+            },
+            "Deserto Escaldante": {
+                "dificuldade": "Difícil",
+                "características": {
+                    "clima": "Quente e Seco",
+                    "vegetação": "Cactos e Arbustos",
+                    "fauna": "Reptéis e Insetos",
+                    "pontos_de_interesse": [
+                        "Oásis",
+                        "Ruínas Antigas"
+                    ],
+                    "perigos": [
+                        "Tempestades de Areia",
+                        "Desidratação"
+                    ]
+                },
+                "recursos": [
+                    "Minérios",
+                    "Ervas Raras"
+                ],
+                "riscos": [
+                    "Desidratação",
+                    "Perda de Rumo"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 6,
+                "nivel_max": 10
+            },
+            "Cavernas Profundas": {
+                "dificuldade": "Muito Difícil",
+                "características": {
+                    "clima": "Úmido e Frio",
+                    "vegetação": "Mofos e Fungos",
+                    "fauna": "Criaturas Abissais",
+                    "pontos_de_interesse": [
+                        "Cristais Luminescentes",
+                        "Lago Subterrâneo"
+                    ],
+                    "perigos": [
+                        "Desmoronamento",
+                        "Monstros"
+                    ]
+                },
+                "recursos": [
+                    "Cristais Preciosos",
+                    "Minérios Raros"
+                ],
+                "riscos": [
+                    "Desmoronamento",
+                    "Ataques de Monstros"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 7,
+                "nivel_max": 12
+            },
+            "Ruínas Antigas": {
+                "dificuldade": "Moderada",
+                "características": {
+                    "clima": "Variável",
+                    "vegetação": "Arbustos e Heras",
+                    "fauna": "Animais de Grande Porte",
+                    "pontos_de_interesse": [
+                        "Templo Caído",
+                        "Biblioteca Abandonada"
+                    ],
+                    "perigos": [
+                        "Colapsos Estruturais",
+                        "Truques Arcanos"
+                    ]
+                },
+                "recursos": [
+                    "Artefatos Antigos",
+                    "Papel e Tinta"
+                ],
+                "riscos": [
+                    "Colapsos Estruturais",
+                    "Armadilhas"
+                ],
+                "exploração": "Moderada",
+                "nivel_min": 4,
+                "nivel_max": 8
+            },
+            "Oceano Profundo": {
+                "dificuldade": "Muito Difícil",
+                "características": {
+                    "clima": "Variável",
+                    "vegetação": "Algas e Corais",
+                    "fauna": "Criaturas Marinhas",
+                    "pontos_de_interesse": [
+                        "Recifes de Corais",
+                        "Navios Naufragados"
+                    ],
+                    "perigos": [
+                        "Tempestades Marítimas",
+                        "Criaturas Marinhas Perigosas"
+                    ]
+                },
+                "recursos": [
+                    "Perolas",
+                    "Algas Medicinais"
+                ],
+                "riscos": [
+                    "Afogamento",
+                    "Ataques de Criaturas Marinhas"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 8,
+                "nivel_max": 12
+            },
+            "Terras Desoladas": {
+                "dificuldade": "Difícil",
+                "características": {
+                    "clima": "Quente e Árido",
+                    "vegetação": "Nenhuma",
+                    "fauna": "Inexistente",
+                    "pontos_de_interesse": [
+                        "Ruínas Antigas",
+                        "Cidades Abandonadas"
+                    ],
+                    "perigos": [
+                        "Tempestades de Poeira",
+                        "Desidratação"
+                    ]
+                },
+                "recursos": [
+                    "Artefatos Antigos",
+                    "Minérios"
+                ],
+                "riscos": [
+                    "Desidratação",
+                    "Perda de Rumo"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 7,
+                "nivel_max": 10
+            },
+            "Vulcões Ativos": {
+                "dificuldade": "Muito Difícil",
+                "características": {
+                    "clima": "Quente e Incandescente",
+                    "vegetação": "Nenhuma",
+                    "fauna": "Criaturas Resistentes ao Calor",
+                    "pontos_de_interesse": [
+                        "Cratera do Vulcão",
+                        "Fluxo de Lava"
+                    ],
+                    "perigos": [
+                        "Erupções",
+                        "Lava"
+                    ]
+                },
+                "recursos": [
+                    "Minérios Raros",
+                    "Cristais"
+                ],
+                "riscos": [
+                    "Queimaduras",
+                    "Erupções Vulcânicas"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 8,
+                "nivel_max": 12
+            },
+            "Planícies Verdejantes": {
+                "dificuldade": "Fácil",
+                "características": {
+                    "clima": "Amplo e Ameno",
+                    "vegetação": "Campos e Prados",
+                    "fauna": "Animais de Grande Porte",
+                    "pontos_de_interesse": [
+                        "Cidades Pequenas",
+                        "Campos de Grãos"
+                    ],
+                    "perigos": [
+                        "Animais Selvagens",
+                        "Doenças"
+                    ]
+                },
+                "recursos": [
+                    "Frutas",
+                    "Vegetais"
+                ],
+                "riscos": [
+                    "Ataques de Animais",
+                    "Doenças"
+                ],
+                "exploração": "Baixa",
+                "nivel_min": 1,
+                "nivel_max": 5
+            },
+            "Cidades Abandonadas": {
+                "dificuldade": "Moderada",
+                "características": {
+                    "clima": "Variável",
+                    "vegetação": "Arbustos e Heras",
+                    "fauna": "Animais Perdidos",
+                    "pontos_de_interesse": [
+                        "Prédios Desmoronados",
+                        "Bibliotecas"
+                    ],
+                    "perigos": [
+                        "Colapsos Estruturais",
+                        "Armadilhas"
+                    ]
+                },
+                "recursos": [
+                    "Tecnologia Antiga",
+                    "Livros"
+                ],
+                "riscos": [
+                    "Colapsos Estruturais",
+                    "Armadilhas"
+                ],
+                "exploração": "Moderada",
+                "nivel_min": 4,
+                "nivel_max": 8
+            },
+            "Campos de Batalha": {
+                "dificuldade": "Moderada",
+                "características": {
+                    "clima": "Variável",
+                    "vegetação": "Rasa e Desolada",
+                    "fauna": "Animais Selvagens",
+                    "pontos_de_interesse": [
+                        "Ruínas de Fortalezas",
+                        "Acampamentos"
+                    ],
+                    "perigos": [
+                        "Armadilhas",
+                        "Restos de Armas"
+                    ]
+                },
+                "recursos": [
+                    "Relíquias de Batalha",
+                    "Armas"
+                ],
+                "riscos": [
+                    "Armadilhas",
+                    "Desgastes de Equipamentos"
+                ],
+                "exploração": "Moderada",
+                "nivel_min": 4,
+                "nivel_max": 8
+            },
+            "Praia Tropical": {
+                "dificuldade": "Fácil",
+                "características": {
+                    "clima": "Quente e Úmido",
+                    "vegetação": "Palmeiras e Plantas Tropicais",
+                    "fauna": "Peixes e Aves",
+                    "pontos_de_interesse": [
+                        "Recifes de Coral",
+                        "Ilhas"
+                    ],
+                    "perigos": [
+                        "Desidratação",
+                        "Animais Marinhos"
+                    ]
+                },
+                "recursos": [
+                    "Frutas Tropicais",
+                    "Pescado"
+                ],
+                "riscos": [
+                    "Queimaduras de Sol",
+                    "Afogamento"
+                ],
+                "exploração": "Baixa",
+                "nivel_min": 1,
+                "nivel_max": 5
+            },
+            "Pântano Sombrio": {
+                "dificuldade": "Difícil",
+                "características": {
+                    "clima": "Frio e Úmido",
+                    "vegetação": "Mofos e Algas",
+                    "fauna": "Criaturas Insetóides",
+                    "pontos_de_interesse": [
+                        "Lago Negra",
+                        "Ruínas Esquecidas"
+                    ],
+                    "perigos": [
+                        "Doenças",
+                        "Águas Contaminadas"
+                    ]
+                },
+                "recursos": [
+                    "Ervas Raras",
+                    "Madeira"
+                ],
+                "riscos": [
+                    "Envenenamento",
+                    "Ataques de Insetos"
+                ],
+                "exploração": "Moderada",
+                "nivel_min": 5,
+                "nivel_max": 9
+            },
+            "Mina Abandonada": {
+                "dificuldade": "Moderada",
+                "características": {
+                    "clima": "Estável",
+                    "vegetação": "Nenhuma",
+                    "fauna": "Pouca",
+                    "pontos_de_interesse": [
+                        "Túneis Escavados",
+                        "Câmara de Minerais"
+                    ],
+                    "perigos": [
+                        "Desmoronamentos",
+                        "Armadilhas"
+                    ]
+                },
+                "recursos": [
+                    "Minérios",
+                    "Cristais"
+                ],
+                "riscos": [
+                    "Desmoronamentos",
+                    "Armadilhas"
+                ],
+                "exploração": "Moderada",
+                "nivel_min": 4,
+                "nivel_max": 8
+            },
+            "Ilha Misteriosa": {
+                "dificuldade": "Difícil",
+                "características": {
+                    "clima": "Variável",
+                    "vegetação": "Densa e Exótica",
+                    "fauna": "Criaturas Exóticas",
+                    "pontos_de_interesse": [
+                        "Ruínas Ancestrais",
+                        "Fontes Mágicas"
+                    ],
+                    "perigos": [
+                        "Animais Selvagens",
+                        "Trilhas Perigosas"
+                    ]
+                },
+                "recursos": [
+                    "Plantas Raras",
+                    "Artefatos Mágicos"
+                ],
+                "riscos": [
+                    "Ataques de Animais",
+                    "Envenenamento"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 6,
+                "nivel_max": 10
+            },
+            "Cavernas de Gelo": {
+                "dificuldade": "Muito Difícil",
+                "características": {
+                    "clima": "Frio e Congelante",
+                    "vegetação": "Nenhuma",
+                    "fauna": "Criaturas Gélidas",
+                    "pontos_de_interesse": [
+                        "Cristais de Gelo",
+                        "Lago Congelado"
+                    ],
+                    "perigos": [
+                        "Congelamento",
+                        "Deslizamentos de Gelo"
+                    ]
+                },
+                "recursos": [
+                    "Gelo Puro",
+                    "Cristais"
+                ],
+                "riscos": [
+                    "Congelamento",
+                    "Deslizamentos de Gelo"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 8,
+                "nivel_max": 12
+            },
+            "Ruínas Subaquáticas": {
+                "dificuldade": "Muito Difícil",
+                "características": {
+                    "clima": "Subaquático",
+                    "vegetação": "Algas e Corais",
+                    "fauna": "Criaturas Marinhas",
+                    "pontos_de_interesse": [
+                        "Templos Submersos",
+                        "Navios Naufragados"
+                    ],
+                    "perigos": [
+                        "Afogamento",
+                        "Criaturas Marinhas Perigosas"
+                    ]
+                },
+                "recursos": [
+                    "Perolas",
+                    "Relíquias Submersas"
+                ],
+                "riscos": [
+                    "Afogamento",
+                    "Ataques de Criaturas Marinhas"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 8,
+                "nivel_max": 12
+            },
+            "Cavernas de Lava": {
+                "dificuldade": "Muito Difícil",
+                "características": {
+                    "clima": "Quente e Incandescente",
+                    "vegetação": "Nenhuma",
+                    "fauna": "Criaturas Resistentes ao Calor",
+                    "pontos_de_interesse": [
+                        "Lava Fluida",
+                        "Formações Rochosas"
+                    ],
+                    "perigos": [
+                        "Lava",
+                        "Erupções"
+                    ]
+                },
+                "recursos": [
+                    "Minérios Raros",
+                    "Cristais"
+                ],
+                "riscos": [
+                    "Queimaduras",
+                    "Erupções"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 9,
+                "nivel_max": 12
+            },
+            "Planícies Nevoentas": {
+                "dificuldade": "Moderada",
+                "características": {
+                    "clima": "Frio e Nebuloso",
+                    "vegetação": "Arbustos e Grama",
+                    "fauna": "Criaturas de Noite",
+                    "pontos_de_interesse": [
+                        "Monumentos Antigos",
+                        "Rochas Misteriosas"
+                    ],
+                    "perigos": [
+                        "Névoa Espessa",
+                        "Animais Noturnos"
+                    ]
+                },
+                "recursos": [
+                    "Ervas Medicinais",
+                    "Pedras"
+                ],
+                "riscos": [
+                    "Desorientação",
+                    "Ataques de Animais"
+                ],
+                "exploração": "Moderada",
+                "nivel_min": 4,
+                "nivel_max": 8
+            },
+            "Praia Deserta": {
+                "dificuldade": "Fácil",
+                "características": {
+                    "clima": "Quente e Seco",
+                    "vegetação": "Areia e Pouca Vegetação",
+                    "fauna": "Pássaros e Peixes",
+                    "pontos_de_interesse": [
+                        "Cachos de Cocos",
+                        "Cavernas de Areia"
+                    ],
+                    "perigos": [
+                        "Desidratação",
+                        "Ataques de Animais Marinhos"
+                    ]
+                },
+                "recursos": [
+                    "Cocos",
+                    "Pescado"
+                ],
+                "riscos": [
+                    "Desidratação",
+                    "Afogamento"
+                ],
+                "exploração": "Baixa",
+                "nivel_min": 1,
+                "nivel_max": 5
+            },
+            "Desfiladeiro Profundo": {
+                "dificuldade": "Difícil",
+                "características": {
+                    "clima": "Frio e Ventoso",
+                    "vegetação": "Escassa",
+                    "fauna": "Criaturas de Altitude",
+                    "pontos_de_interesse": [
+                        "Cavernas Secretas",
+                        "Rochas Imensas"
+                    ],
+                    "perigos": [
+                        "Deslizamentos de Pedra",
+                        "Altura Perigosa"
+                    ]
+                },
+                "recursos": [
+                    "Minérios",
+                    "Cristais"
+                ],
+                "riscos": [
+                    "Deslizamentos",
+                    "Acidente de Escalada"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 6,
+                "nivel_max": 10
+            },
+            "Tundra Congelada": {
+                "dificuldade": "Muito Difícil",
+                "características": {
+                    "clima": "Frio e Ventoso",
+                    "vegetação": "Musgos e Líquens",
+                    "fauna": "Criaturas Árticas",
+                    "pontos_de_interesse": [
+                        "Glaciares",
+                        "Picos de Gelo"
+                    ],
+                    "perigos": [
+                        "Hipotermia",
+                        "Tempestades de Neve"
+                    ]
+                },
+                "recursos": [
+                    "Cristais de Gelo",
+                    "Plantas Árticas"
+                ],
+                "riscos": [
+                    "Congelamento",
+                    "Tempestades"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 8,
+                "nivel_max": 12
+            },
+            "Selva Tropical": {
+                "dificuldade": "Difícil",
+                "características": {
+                    "clima": "Quente e Úmido",
+                    "vegetação": "Densa e Exótica",
+                    "fauna": "Animais Selvagens",
+                    "pontos_de_interesse": [
+                        "Cascatas",
+                        "Ruínas de Tribos"
+                    ],
+                    "perigos": [
+                        "Animais Perigosos",
+                        "Trilhas Perigosas"
+                    ]
+                },
+                "recursos": [
+                    "Frutas Tropicais",
+                    "Ervas"
+                ],
+                "riscos": [
+                    "Ataques de Animais",
+                    "Perda de Rumo"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 5,
+                "nivel_max": 9
+            },
+            "Cemitérios Abandonados": {
+                "dificuldade": "Moderada",
+                "características": {
+                    "clima": "Nebuloso e Frio",
+                    "vegetação": "Desolada",
+                    "fauna": "Espíritos e Fantasmas",
+                    "pontos_de_interesse": [
+                        "Túmulos Antigos",
+                        "Capelas Abandonadas"
+                    ],
+                    "perigos": [
+                        "Espíritos",
+                        "Armadilhas"
+                    ]
+                },
+                "recursos": [
+                    "Relíquias",
+                    "Artefatos"
+                ],
+                "riscos": [
+                    "Ataques Espirituais",
+                    "Armadilhas"
+                ],
+                "exploração": "Moderada",
+                "nivel_min": 4,
+                "nivel_max": 8
+            },
+            "Vale das Sombras": {
+                "dificuldade": "Difícil",
+                "características": {
+                    "clima": "Escuro e Frio",
+                    "vegetação": "Arbustos e Heras",
+                    "fauna": "Criaturas Noturnas",
+                    "pontos_de_interesse": [
+                        "Cavernas Escuras",
+                        "Ruínas Envoltas em Névoa"
+                    ],
+                    "perigos": [
+                        "Ataques Noturnos",
+                        "Névoa Espessa"
+                    ]
+                },
+                "recursos": [
+                    "Ervas Noturnas",
+                    "Pedras"
+                ],
+                "riscos": [
+                    "Desorientação",
+                    "Ataques de Criaturas"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 6,
+                "nivel_max": 10
+            },
+            "Campos de Flores": {
+                "dificuldade": "Fácil",
+                "características": {
+                    "clima": "Ameno",
+                    "vegetação": "Flores e Plantas",
+                    "fauna": "Insetos e Animais Pequenos",
+                    "pontos_de_interesse": [
+                        "Jardins",
+                        "Pequenas Cachoeiras"
+                    ],
+                    "perigos": [
+                        "Insetos Perigosos",
+                        "Doenças"
+                    ]
+                },
+                "recursos": [
+                    "Flores Medicinais",
+                    "Mel"
+                ],
+                "riscos": [
+                    "Picadas de Insetos",
+                    "Doenças"
+                ],
+                "exploração": "Baixa",
+                "nivel_min": 1,
+                "nivel_max": 5
+            },
+            "Floresta de Pinheiros": {
+                "dificuldade": "Moderada",
+                "características": {
+                    "clima": "Frio e Ameno",
+                    "vegetação": "Pinheiros e Arbustos",
+                    "fauna": "Animais de Bosque",
+                    "pontos_de_interesse": [
+                        "Lago de Pinheiros",
+                        "Cascatas"
+                    ],
+                    "perigos": [
+                        "Animais Selvagens",
+                        "Armadilhas Naturais"
+                    ]
+                },
+                "recursos": [
+                    "Madeira",
+                    "Ervas"
+                ],
+                "riscos": [
+                    "Ataques de Animais",
+                    "Perda de Rumo"
+                ],
+                "exploração": "Moderada",
+                "nivel_min": 3,
+                "nivel_max": 7
+            },
+            "Ruínas de Castelos": {
+                "dificuldade": "Difícil",
+                "características": {
+                    "clima": "Variável",
+                    "vegetação": "Heras e Árvores",
+                    "fauna": "Animais de Grande Porte",
+                    "pontos_de_interesse": [
+                        "Torres Caídas",
+                        "Câmaras Secretas"
+                    ],
+                    "perigos": [
+                        "Colapsos Estruturais",
+                        "Armadilhas"
+                    ]
+                },
+                "recursos": [
+                    "Artefatos",
+                    "Equipamentos"
+                ],
+                "riscos": [
+                    "Colapsos Estruturais",
+                    "Armadilhas"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 5,
+                "nivel_max": 9
+            },
+            "Canyon do Vento": {
+                "dificuldade": "Difícil",
+                "características": {
+                    "clima": "Ventoso e Frio",
+                    "vegetação": "Arbustos e Musgos",
+                    "fauna": "Criaturas de Altitude",
+                    "pontos_de_interesse": [
+                        "Rochas Esculpidas pelo Vento",
+                        "Cavernas"
+                    ],
+                    "perigos": [
+                        "Deslizamentos",
+                        "Vento Forte"
+                    ]
+                },
+                "recursos": [
+                    "Pedras",
+                    "Cristais"
+                ],
+                "riscos": [
+                    "Deslizamentos",
+                    "Ataques de Criaturas"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 6,
+                "nivel_max": 10
+            },
+            "Ilha dos Espíritos": {
+                "dificuldade": "Muito Difícil",
+                "características": {
+                    "clima": "Nebuloso e Frio",
+                    "vegetação": "Árvores Mortas e Mofos",
+                    "fauna": "Espíritos e Fantasmas",
+                    "pontos_de_interesse": [
+                        "Ruínas Espirituais",
+                        "Fontes Mágicas"
+                    ],
+                    "perigos": [
+                        "Ataques Espirituais",
+                        "Armadilhas"
+                    ]
+                },
+                "recursos": [
+                    "Relíquias Espirituais",
+                    "Cristais"
+                ],
+                "riscos": [
+                    "Ataques Espirituais",
+                    "Perda de Rumo"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 9,
+                "nivel_max": 12
+            },
+            "Campo de Batalha Abandonado": {
+                "dificuldade": "Moderada",
+                "características": {
+                    "clima": "Variável",
+                    "vegetação": "Desolada",
+                    "fauna": "Animais Selvagens",
+                    "pontos_de_interesse": [
+                        "Ruínas de Fortificações",
+                        "Acampamentos Desertos"
+                    ],
+                    "perigos": [
+                        "Armadilhas",
+                        "Restos de Armas"
+                    ]
+                },
+                "recursos": [
+                    "Armas",
+                    "Relíquias"
+                ],
+                "riscos": [
+                    "Armadilhas",
+                    "Desgastes de Equipamentos"
+                ],
+                "exploração": "Moderada",
+                "nivel_min": 5,
+                "nivel_max": 8
+            },
+            "Bosque Mágico": {
+                "dificuldade": "Moderada",
+                "características": {
+                    "clima": "Ameno",
+                    "vegetação": "Densa e Mágica",
+                    "fauna": "Criaturas Encantadas",
+                    "pontos_de_interesse": [
+                        "Árvore Mágica",
+                        "Lago Encantado"
+                    ],
+                    "perigos": [
+                        "Armadilhas Mágicas",
+                        "Animais Selvagens"
+                    ]
+                },
+                "recursos": [
+                    "Ervas Mágicas",
+                    "Cristais"
+                ],
+                "riscos": [
+                    "Armadilhas Mágicas",
+                    "Ataques de Animais"
+                ],
+                "exploração": "Moderada",
+                "nivel_min": 4,
+                "nivel_max": 8
+            },
+            "Cidadela Forte": {
+                "dificuldade": "Difícil",
+                "características": {
+                    "clima": "Variável",
+                    "vegetação": "Arbustos e Áreas Rurais",
+                    "fauna": "Guardiões e Sentinelas",
+                    "pontos_de_interesse": [
+                        "Fortificações",
+                        "Quartéis"
+                    ],
+                    "perigos": [
+                        "Armadilhas",
+                        "Guardiões"
+                    ]
+                },
+                "recursos": [
+                    "Equipamentos Militares",
+                    "Armas"
+                ],
+                "riscos": [
+                    "Armadilhas",
+                    "Conflitos"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 6,
+                "nivel_max": 10
+            },
+            "Vale dos Dragões": {
+                "dificuldade": "Muito Difícil",
+                "características": {
+                    "clima": "Variável",
+                    "vegetação": "Escassa e Rugosa",
+                    "fauna": "Dragões e Criaturas Míticas",
+                    "pontos_de_interesse": [
+                        "Covil dos Dragões",
+                        "Templos Antigos"
+                    ],
+                    "perigos": [
+                        "Ataques de Dragões",
+                        "Rochas Perigosas"
+                    ]
+                },
+                "recursos": [
+                    "Escamas de Dragão",
+                    "Cristais Mágicos"
+                ],
+                "riscos": [
+                    "Ataques de Dragões",
+                    "Perda de Rumo"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 9,
+                "nivel_max": 12
+            },
+            "Cidade Subterrânea": {
+                "dificuldade": "Difícil",
+                "características": {
+                    "clima": "Estável",
+                    "vegetação": "Nenhuma",
+                    "fauna": "Criaturas Subterrâneas",
+                    "pontos_de_interesse": [
+                        "Câmaras Ocultas",
+                        "Mercados Subterrâneos"
+                    ],
+                    "perigos": [
+                        "Desmoronamentos",
+                        "Criaturas Subterrâneas"
+                    ]
+                },
+                "recursos": [
+                    "Minérios",
+                    "Cristais"
+                ],
+                "riscos": [
+                    "Desmoronamentos",
+                    "Ataques de Criaturas"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 6,
+                "nivel_max": 10
+            },
+            "Ruínas de Templos": {
+                "dificuldade": "Difícil",
+                "características": {
+                    "clima": "Variável",
+                    "vegetação": "Heras e Arvores",
+                    "fauna": "Criaturas Perdidas",
+                    "pontos_de_interesse": [
+                        "Templos Antigos",
+                        "Relíquias"
+                    ],
+                    "perigos": [
+                        "Colapsos Estruturais",
+                        "Armadilhas"
+                    ]
+                },
+                "recursos": [
+                    "Relíquias",
+                    "Artefatos"
+                ],
+                "riscos": [
+                    "Colapsos",
+                    "Armadilhas"
+                ],
+                "exploração": "Moderada",
+                "nivel_min": 5,
+                "nivel_max": 8
+            },
+            "Jungla Tropical": {
+                "dificuldade": "Difícil",
+                "características": {
+                    "clima": "Quente e Úmido",
+                    "vegetação": "Densa e Exótica",
+                    "fauna": "Animais Selvagens e Reptéis",
+                    "pontos_de_interesse": [
+                        "Cascatas",
+                        "Ruínas de Tribos"
+                    ],
+                    "perigos": [
+                        "Animais Selvagens",
+                        "Plantas Venenosas"
+                    ]
+                },
+                "recursos": [
+                    "Frutas Tropicais",
+                    "Ervas Medicinais"
+                ],
+                "riscos": [
+                    "Ataques de Animais",
+                    "Envenenamento"
+                ],
+                "exploração": "Alta",
+                "nivel_min": 6,
+                "nivel_max": 10
+            },
+            "Cidade de Arenito": {
+                "dificuldade": "Moderada",
+                "características": {
+                    "clima": "Quente e Seco",
+                    "vegetação": "Cactos e Arbustos",
+                    "fauna": "Animais de Deserto",
+                    "pontos_de_interesse": [
+                        "Ruínas de Arenito",
+                        "Mercados"
+                    ],
+                    "perigos": [
+                        "Desidratação",
+                        "Tempestades de Areia"
+                    ]
+                },
+                "recursos": [
+                    "Minérios",
+                    "Cristais"
+                ],
+                "riscos": [
+                    "Desidratação",
+                    "Ataques de Animais"
+                ],
+                "exploração": "Moderada",
+                "nivel_min": 4,
+                "nivel_max": 8
+            }
+        }
+    }
+]
